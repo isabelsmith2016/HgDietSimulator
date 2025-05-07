@@ -1,0 +1,118 @@
+﻿Item,Amount (g),Calories,THg (ng/g),Moderate Hg Increase,Severe Hg Increase,Traditional Food,Food Source,Coastal/Interior,Calorie Citation,Hg Citation,Substituted Hg,Substituted Calories,Notes
+American Wigeon,100,152,7,7,7,1,Game,Interior,https://www.adfg.alaska.gov/index.cfm?adfg=hunting.eating,Teitelbaum et al. 2022,Duck muscle,Wild duck,Hg from muscle
+"Apple Juice, canned sweetened",100,46,0.099,0.087,0.087,0,Store Fruit and Fruit Juice,Imported,https://fdc.nal.usda.gov/food-details/167771/nutrients,Dabeka et al. 2003,,,Hg Less than value.
+Apple Sauce,100,50,0.099,0.099,0.099,0,Store Fruit and Fruit Juice,Imported,https://fdc.nal.usda.gov/food-details/2104794/nutrients,Dabeka et al. 2003,,,Hg Less than value. 
+"Apple, raw",100,57,0.11,0.11,0.11,0,Store Fruit and Fruit Juice,Imported,https://fdc.nal.usda.gov/food-details/168202/nutrients,Dabeka et al. 2003,,,Hg Less than value. 
+Arctic Char,100,186,68,82.28,187,1,Non-Salmon,Interior,https://fdc.nal.usda.gov/food-details/2470085/nutrients,2001-2022 ADEC,,,Hg for fillet
+Bananas,100,89,0.11,0.11,0.11,0,Store Fruit and Fruit Juice,Imported,https://fdc.nal.usda.gov/food-details/173944/nutrients,Dabeka et al. 2003,,,Hg Less than value. 
+Bearded seal,100,110,30,36.3,82.5,1,Marine Mammal,Coastal,https://fdc.nal.usda.gov/food-details/167610/nutrients,Dehn et al. 2005,,Generic seal meat,Hg from muscle.
+Beaver,100,146,10.4,10.4,10.4,1,Game,Interior,https://fdc.nal.usda.gov/food-details/175294/nutrients,Gizejewska et al. 2014,Beaver Muscle,,Hg from muscle
+"Beef, steak",100,166,0.42,0.42,0.42,0,Imported Protein,Imported,https://fdc.nal.usda.gov/food-details/331960/nutrients,Dabeka et al. 2003,,,
+Beluga,100,111,1130,1367.3,3107.5,1,Marine Mammal,Coastal,https://fdc.nal.usda.gov/food-details/169797/nutrients,Dehn et al. 2006,,,Hg from muscle
+Bering Cisco,100,98,65,78.65,178.75,1,Non-Salmon,Local,https://fdc.nal.usda.gov/food-details/171953/nutrients,2001-2022 ADEC,,Generic cisco,Hg for fillet
+Black Bear,100,163,8,8,8,1,Game,Local,https://www.adfg.alaska.gov/index.cfm?adfg=hunting.eating,Golzadeh et al. 2020,Bear muscle (unspecifed species),,Hg from muscle
+Black Scoter,100,152,134.7,134.7,134.7,1,Game,Interior,https://www.adfg.alaska.gov/index.cfm?adfg=hunting.eating,Rothschild et al. 2005,,Mallard,Used Hg from muscle
+Blackberry,100,43,5,5,5,1,Traditional Plants and Fungi,Coastal,https://fdc.nal.usda.gov/food-details/173946/nutrients,Golzadeh et al. 2020,Berries,,
+Blackfish,100,82,22,26.62,60.5,1,Non-Salmon,Coastal,https://fdc.nal.usda.gov/food-details/169798/nutrients,2001-2022 ADEC,Alaska Blackfish,,Hg for whole body
+Blueberry,100,61,0.21,0.21,0.21,1,Traditional Plants and Fungi,Local,https://fdc.nal.usda.gov/food-details/167640/nutrients,Dabeka et al. 2003,,,
+Brant,100,161,2.3,2.3,2.3,1,Game,Coastal,https://www.adfg.alaska.gov/index.cfm?adfg=hunting.eating,Rothschild et al. 2005,,Canada Goose,Hg from muscle
+Broad Whitefish,100,134,58,70.18,159.5,1,Non-Salmon,Local,https://www.canada.ca/en/health-canada/services/food-nutrition/healthy-eating/nutrient-data/table-8-fish-shellfish-nutrient-value-some-common-foods-2008.html,2001-2022 ADEC,,,Hg for fillet
+Broccoli,100,34,0.4,0.4,0.4,0,Store Vegetable,Imported,https://fdc.nal.usda.gov/food-details/170379/nutrients,Dabeka et al. 2003,,,Hg for fillet
+Brown Bear,100,163,8,8,8,1,Game,Interior,https://www.adfg.alaska.gov/index.cfm?adfg=hunting.eating,Golzadeh et al. 2020,Bear muscle (unspecifed species),,Hg from muscle
+Burbot,100,90,275,332.75,756.25,1,Non-Salmon,Local,https://fdc.nal.usda.gov/food-details/171950/nutrients,2001-2022 ADEC,,,Hg for fillet
+Burrito,100,212,0.77,0.77,0.77,0,Mixed Dishes,Imported,https://fdc.nal.usda.gov/food-details/1922049/nutrients,Dabeka et al. 2003,Frozen entrees (microwave or oven),,
+Butter,100,717,0.43,0.43,0.43,0,Dairy and Eggs,Imported,https://fdc.nal.usda.gov/food-details/173410/nutrients,Dabeka et al. 2003,,,Hg Less than value. 
+Cacklers,100,161,2.5,2.5,2.5,1,Game,Coastal,https://www.adfg.alaska.gov/index.cfm?adfg=hunting.eating,Rothschild et al. 2005,canada goose (cackling) B.c. minima,Canada Goose,Hg from muscle
+Cake,100,292,0.45,0.45,0.45,0,Grains,Imported,https://fdc.nal.usda.gov/food-details/172706/nutrients,Dabeka et al. 2003,,,Hg Less than value. 
+Canada Geese,100,161,0.8,0.8,0.8,1,Game,Interior,https://www.adfg.alaska.gov/index.cfm?adfg=hunting.eating,Rothschild et al. 2005,,Canada Goose,Hg from muscle
+Canned Meats,100,334,0.36,0.36,0.36,0,Imported Protein,Imported,https://fdc.nal.usda.gov/food-details/174571/nutrients,Dabeka et al. 2003,,,
+Caribou,100,127,3,3,3,1,Moose and Caribou,Local,https://www.adfg.alaska.gov/index.cfm?adfg=hunting.eating,Schuster et al. 2011,,,Hg Less than value. 
+Carrot,100,41,0.29,0.29,0.29,0,Store Vegetable,Imported,https://fdc.nal.usda.gov/food-details/170393/nutrients,Dabeka et al. 2003,,,Hg for fillet
+Cauliflower,100,25,0.1,0.1,0.1,0,Store Vegetable,Imported,https://fdc.nal.usda.gov/food-details/169986/nutrients,Dabeka et al. 2003,,,Hg Less than value. 
+Celery,100,14,0.25,0.25,0.25,0,Store Vegetable,Imported,https://fdc.nal.usda.gov/food-details/169988/nutrients,Dabeka et al. 2003,,,Hg for fillet
+Cereal,100,322,0.45,0.45,0.45,0,Grains,Imported,https://fdc.nal.usda.gov/food-details/1886230/nutrients,Dabeka et al. 2003,Wheat and Bran Cereal,,Hg Less than value. 
+Cheese,100,376,0.51,0.51,0.51,0,Dairy and Eggs,Imported,https://fdc.nal.usda.gov/food-details/168121/nutrients,Dabeka et al. 2003,Processed cheddar cheese,,Hg Less than value. 
+Chicken,100,158,1.7,1.7,1.7,0,Imported Protein,Imported,https://fdc.nal.usda.gov/food-details/331960/nutrients,Dabeka et al. 2003,,,
+Chinook Salmon,100,179,64,77.44,176,1,Salmon,Local,https://fdc.nal.usda.gov/food-details/173688/nutrients,2001-2012 ADEC,,,Hg for fillet
+Chocolate bar,100,531,0.54,0.54,0.54,0,Sweeteners and Candy,Imported,https://fdc.nal.usda.gov/food-details/167984/nutrients,Dabeka et al. 2003,,,Hg Less than value. 
+Chum Salmon,100,120,41,49.61,112.75,1,Salmon,Local,https://fdc.nal.usda.gov/food-details/173689/nutrients,2001-2022 ADEC,,,Hg for fillet
+Cloud Berry,100,51,5,5,5,1,Traditional Plants and Fungi,Local,https://fdc.nal.usda.gov/food-details/169802/nutrients,Golzadeh et al. 2020,Berries,,
+Coho Salmon,100,140,43,52.03,118.25,1,Salmon,Local,https://fdc.nal.usda.gov/food-details/167639/nutrients,2001-2022 ADEC,,,Hg for fillet
+Cold Cuts and Lunch Meats,100,214,0.51,0.51,0.51,0,Imported Protein,Imported,https://fdc.nal.usda.gov/food-details/170315/nutrients,Dabeka et al. 2003,,,
+Cookies,100,451,0.41,0.41,0.41,0,Grains,Imported,https://fdc.nal.usda.gov/food-details/172715/nutrients,Dabeka et al. 2003,,,
+Corn,100,86,0.11,0.11,0.11,0,Store Vegetable,Imported,https://fdc.nal.usda.gov/food-details/169998/nutrients,Dabeka et al. 2003,,,Hg Less than value. 
+Crisco,100,917,0.25,0.25,0.25,0,Vegetable Fats,Imported,https://fdc.nal.usda.gov/food-details/2572337/nutrients,Dabeka et al. 2003,Cooking fats and Salad oils,"Crisco, Pure Vegetable Oil",Hg Less than value. 
+Crowberry,100,35,10,10,10,1,Traditional Plants and Fungi,Coastal,Kuhnlein et al. 1989,Bergin et al. 2021,,,Hg content dry weight. Calories is freshweight
+Dall Sheep,100,282,5,5,5,1,Game,Interior,https://fdc.nal.usda.gov/food-details/174370/nutrients,Larter et al. 2016,,Lamb,
+Dark Bread,100,259,0.37,0.37,0.37,0,Grains,Imported,https://fdc.nal.usda.gov/food-details/172684/nutrients,Dabeka et al. 2003,Rye Bread,,
+Deer,100,117,4.5,4.5,4.5,1,Game,Interior,https://www.adfg.alaska.gov/index.cfm?adfg=hunting.eating,Van Daele et al. 2013,,Deer (sika),
+Dolly Varden,100,100,65,78.65,178.75,1,Non-Salmon,Interior,https://www.apiai.org/community-services/traditional-foods-program/nutrition-information/,2001-2022 ADEC,,,Hg for fillet
+Eggs,100,147,0.39,0.39,0.39,0,Dairy and Eggs,Imported,https://fdc.nal.usda.gov/food-details/748967/nutrients,Dabeka et al. 2003,,,Used Energy (Atwater specific factors) for calories
+Grayling,100,107,86,104.06,236.5,1,Non-Salmon,Interior,https://www.canada.ca/en/health-canada/services/food-nutrition/healthy-eating/nutrient-data/table-8-fish-shellfish-nutrient-value-some-common-foods-2008.html,2001-2022 ADEC,Arcic Grayling,,Hg for fillet
+Halibut,100,116,292,353.32,803,1,Non-Salmon,Local,https://fdc.nal.usda.gov/food-details/167638/nutrients,2001-2022 ADEC,Pacific Halibut,,Hg for fillet
+Hamburger,100,264,0.16,0.16,0.16,0,Mixed Dishes,Imported,https://fdc.nal.usda.gov/food-details/170717/nutrients,Dabeka et al. 2003,,,
+Herring,100,195,64,77.44,176,1,Non-Salmon,Coastal,https://fdc.nal.usda.gov/food-details/173669/nutrients,2001-2022 ADEC,Pacific Herring,Herring,Hg for fillet
+Herring Roe,100,74,3,3,3,1,Animal Product,Coastal,https://fdc.nal.usda.gov/food-details/169806/nutrients,2001-2022 ADEC,Herring eggs,,
+High Bush Cranberry,100,55,5,5,5,1,Traditional Plants and Fungi,Interior,https://www.apiai.org/community-services/traditional-foods-program/nutrition-information/,Golzadeh et al. 2020,Berries,Low bush cranberries,
+Hot Dog,100,310,0.36,0.36,0.36,0,Imported Protein,Imported,https://fdc.nal.usda.gov/food-details/323121/nutrients,Dabeka et al. 2003,,,
+Hot Pocket,100,252,0.22,0.22,0.22,0,Mixed Dishes,Imported,https://fdc.nal.usda.gov/food-details/172107/nutrients,Dabeka et al. 2003,Pizza,,
+Humpback Whitefish,100,134,65,78.65,178.75,1,Non-Salmon,Local,https://fdc.nal.usda.gov/food-details/173711/nutrients,2001-2022 ADEC,,"Whitefish, mixed species",Hg for fillet
+Ice cream,100,207,0.28,0.28,0.28,0,Dairy and Eggs,Imported,https://fdc.nal.usda.gov/food-details/167575/nutrients,Dabeka et al. 2003,,,
+Jams,100,250,0.24,0.24,0.24,0,Sweeteners and Candy,Imported,https://fdc.nal.usda.gov/food-details/1628000/nutrients,Dabeka et al. 2003,,,Hg Less than value. 
+Lake Trout,100,148,352,425.92,968,1,Non-Salmon,Interior,https://fdc.nal.usda.gov/food-details/175153/nutrients,2001-2022 ADEC,,"Trout, mixed species",Hg for fillet
+Lamprey,100,184,28,33.88,77,1,Non-Salmon,Coastal,https://fdc.nal.usda.gov/food-details/174193/nutrients,2001-2022 ADEC,,Eel,Hg for whole body
+Least Cisco,100,98,67,81.07,184.25,1,Non-Salmon,Local,https://fdc.nal.usda.gov/food-details/171953/nutrients,2001-2022 ADEC,,Generic cisco,Hg for fillet
+Lesser Canada Geese,100,161,2.5,2.5,2.5,1,Game,Local,https://www.adfg.alaska.gov/index.cfm?adfg=hunting.eating,Rothschild et al. 2005,canada goose (cackling) B.c. minima,Canada Goose,Hg from muscle
+Lettuce,100,15,0.12,0.12,0.12,0,Store Vegetable,Imported,https://fdc.nal.usda.gov/food-details/169249/nutrients,Dabeka et al. 2003,,,Hg Less than value. 
+Low Bush Cranberry,100,55,5,5,5,1,Traditional Plants and Fungi,Local,https://www.apiai.org/community-services/traditional-foods-program/nutrition-information/,Golzadeh et al. 2020,Berries,,
+Mallard,100,152,89.3,89.3,89.3,1,Game,Local,https://www.adfg.alaska.gov/index.cfm?adfg=hunting.eating,Rothschild et al. 2005,,Wild duck,Hg from muscle
+Maple Syrup,100,260,0.24,0.24,0.24,0,Sweeteners and Candy,Imported,https://fdc.nal.usda.gov/food-details/169661/nutrients,Dabeka et al. 2003,,,Hg Less than value. 
+Margarine,100,727,0.25,0.25,0.25,0,Vegetable Fats,Imported,https://fdc.nal.usda.gov/food-details/172339/nutrients,Dabeka et al. 2003,,,Hg Less than value. 
+Mayonnaise,100,361,0.23,0.23,0.23,0,Vegetable Fats,Imported,https://fdc.nal.usda.gov/food-details/171443/nutrients,Dabeka et al. 2003,,,Hg Less than value from Ottawa
+Milk,100,60,0.13,0.13,0.13,0,Dairy and Eggs,Imported,https://fdc.nal.usda.gov/food-details/746782/nutrients,Dabeka et al. 2003,Whole Milk ,,Used Energy (Atwater specific factors) for calories
+Moose,100,130,3,3,3,1,Moose and Caribou,Local,https://www.adfg.alaska.gov/index.cfm?adfg=hunting.eating,Golzadeh et al. 2020,,,Hg for muscle
+Muskrat,100,162,3,3,3,1,Game,Interior,https://fdc.nal.usda.gov/food-details/172518/nutrients,Antonova et al. 2015,,,Hg from skeletal muscles
+Northern Pike,100,88,341,412.61,937.75,1,Non-Salmon,Local,https://fdc.nal.usda.gov/food-details/173680/nutrients,2001-2022 ADEC,,,Hg for fillet
+Northern Pintail,100,211,38.5,38.5,38.5,1,Game,Local,https://fdc.nal.usda.gov/food-details/174468/nutrients,Rothschild et al. 2005,,Wild duck,Hg from muscle
+Onion,100,40,0.057,0.057,0.057,0,Store Vegetable,Imported,https://fdc.nal.usda.gov/food-details/170000/nutrients,Dabeka et al. 2003,,,Hg Less than value. 
+Orange Juice,100,46,0.097,0.097,0.097,0,Store Fruit and Fruit Juice,Imported,https://fdc.nal.usda.gov/food-details/171913/nutrients,Dabeka et al. 2003,"Citrus Juice, canned",,Hg Less than value. 
+Oranges,100,97,0.12,0.12,0.12,0,Store Fruit and Fruit Juice,Imported,https://fdc.nal.usda.gov/food-details/169103/nutrients,Dabeka et al. 2003,"Citrus fruit, raw",,Hg Less than value. 
+Pacific Cod,100,73,118,142.78,324.5,1,Non-Salmon,Interior,https://fdc.nal.usda.gov/food-details/2094916/nutrients,2001-2022 ADEC,,,Hg for fillet
+Pancakes,100,269,0.35,0.35,0.35,0,Grains,Imported,https://fdc.nal.usda.gov/food-details/174086/nutrients,Dabeka et al. 2003,,,Hg Less than value. 
+Peaches,100,39,0.046,0.046,0.046,0,Store Fruit and Fruit Juice,Imported,https://fdc.nal.usda.gov/food-details/169928/nutrients,Dabeka et al. 2003,,,Hg Less than value. 
+Peanut Butter,100,520,0.56,0.56,0.56,0,Imported Protein,Imported,https://fdc.nal.usda.gov/food-details/172458/nutrients,Dabeka et al. 2003,Peanut butter and peanuts,,Hg less than value. 
+Pilot bread,100,417,0.35,0.35,0.35,0,Grains,Imported,https://fdc.nal.usda.gov/food-details/2032853/nutrients,Dabeka et al. 2003,Crackers,,Hg Less than value. 
+Pink Salmon,100,127,64,77.44,176,1,Salmon,Local,https://fdc.nal.usda.gov/food-details/175138/nutrients,2001-2012 ADEC,,,Hg  Maximum value (fillet)
+Pizza,100,280,0.22,0.22,0.22,0,Mixed Dishes,Imported,https://fdc.nal.usda.gov/food-details/172041/nutrients,Dabeka et al. 2003,,,
+"Pork, fresh",100,263,1.1,1.1,1.1,0,Imported Protein,Imported,https://fdc.nal.usda.gov/food-details/167902/nutrients,Dabeka et al. 2003,,,
+potatoes,100,77,0.082,0.082,0.082,0,Store Vegetable,Imported,https://fdc.nal.usda.gov/food-details/170026/nutrients,Dabeka et al. 2003,"Potatoes, raw",,Hg Less than value. 
+Ptarmigan,100,128,1.4,1.4,1.4,1,Game,Local,https://www.adfg.alaska.gov/index.cfm?adfg=hunting.eating,Rothschild et al. 2005,,,Hg from muscle
+Rainbow Trout,100,119,76,91.96,209,1,Non-Salmon,Interior,https://fdc.nal.usda.gov/food-details/175154/nutrients,2001-2022 ADEC,,,Hg for fillet
+Raspberry,100,52,5,5,5,1,Traditional Plants and Fungi,Local,https://fdc.nal.usda.gov/food-details/167755/nutrients,Golzadeh et al. 2020,Berries,,
+Ringed seal ,100,142,100,121,275,1,Marine Mammal,Coastal,https://fdc.nal.usda.gov/food-details/168025/nutrients,Dehn et al. 2005,,,Hg from muscle. Barrow caught seal
+Round Whitefish,100,134,79,95.59,217.25,1,Non-Salmon,Local,https://fdc.nal.usda.gov/food-details/173711/nutrients,2001-2022 ADEC,,,Hg for fillet
+Ruffed Grouse,100,142,4,4,4,1,Game,Interior,https://www.adfg.alaska.gov/index.cfm?adfg=hunting.eating,Golzadeh et al. 2020,Unspecified grouse,,Used Hg from muscle
+Saffron Cod,100,84,23,27.83,63.25,1,Non-Salmon,Coastal,https://fdc.nal.usda.gov/food-details/175178/nutrients,2001-2022 ADEC,,Pacific Cod,Hg for whole body
+Salmonberry,100,47,5,5,5,1,Traditional Plants and Fungi,Local,https://fdc.nal.usda.gov/food-details/168048/nutrients,Golzadeh et al. 2020,Berries,,
+Sandhill Crane,100,153,0.8,0.8,0.8,1,Game,Coastal,http://ushotstuff.com/wg/Nutritional.htm,Rothschild et al. 2005,,,Hg from muscle
+Sausage,100,320,0.82,0.82,0.82,0,Imported Protein,Imported,https://fdc.nal.usda.gov/food-details/174585/nutrients,Dabeka et al. 2003,Weiners,,
+Sheefish,100,115,138,166.98,379.5,1,Non-Salmon,Local,https://fdc.nal.usda.gov/food-details/167648/nutrients,2001-2022 ADEC,,,Hg for fillet
+Snow Geese,100,121,0.8,0.8,0.8,1,Game,Local,http://ushotstuff.com/wg/Nutritional.htm,Rothschild et al. 2005,Canada goose,,
+Snowshoe Hare,100,114,6,6,6,1,Game,Local,https://www.adfg.alaska.gov/index.cfm?adfg=hunting.eating,Golzadeh et al. 2020,Unspecified hare,,Used Hg from muscle
+Sockeye Salmon,100,153,40,48.4,110,1,Salmon,Local,https://fdc.nal.usda.gov/food-details/168045/nutrients,2001-2022 ADEC,,,Hg for fillet
+Soft drink,100,40,0.041,0.041,0.041,0,Sugared Drinks,Imported,https://fdc.nal.usda.gov/food-details/173206/nutrients,Dabeka et al. 2003,,,Hg Less than value. 
+Soup,100,41,0.15,0.15,0.15,0,Mixed Dishes,Imported,https://fdc.nal.usda.gov/food-details/174545/nutrients,Dabeka et al. 2003,"Soup, meat, canned",,
+Spagehtti,100,157,0.11,0.11,0.11,0,Grains,Imported,https://fdc.nal.usda.gov/food-details/172014/nutrients,Dabeka et al. 2003,"Pasta, plain",,Hg Less than value. 
+Spotted Seal,100,110,130,157.3,357.5,1,Marine Mammal,Coastal,https://fdc.nal.usda.gov/food-details/167610/nutrients,Dehn et al. 2005,,generic seal meat,
+Spruce Grouse,100,142,4,4,4,1,Game,Interior,https://www.adfg.alaska.gov/index.cfm?adfg=hunting.eating,Golzadeh et al. 2020,Unspecified grouse,,Used Hg from muscle
+Tang,100,250,0.041,0.041,0.041,0,Sugared Drinks,Imported,https://fdc.nal.usda.gov/food-details/1636387/nutrients,Dabeka et al. 2003,Soft Drink,,
+Tundra Swan,100,161,2.7,2.7,2.7,1,Game,Coastal,https://www.adfg.alaska.gov/index.cfm?adfg=hunting.eating,Rothschild et al. 2005,,Canda Goose,Hg from muscle
+Vegetable Oil,100,857,0.25,0.25,0.25,0,Vegetable Fats,Imported,https://fdc.nal.usda.gov/food-details/1625352/nutrients,Dabeka et al. 2003,Cooking fats and Salad oils,"Crisco, Pure Vegetable Oil",Hg Less than value. 
+Walrus,100,199,21,25.41,57.75,1,Marine Mammal,Coastal,https://fdc.nal.usda.gov/food-details/168029/nutrients,Quakenbush et al. 2016,,,Hg from muscle
+White Bread,100,267,0.46,0.46,0.46,0,Grains,Imported,https://fdc.nal.usda.gov/food-details/325871/nutrients,Dabeka et al. 2003,,,Hg Less than value. 
+White Rice,100,366,0.57,0.57,0.57,0,Grains,Imported,https://fdc.nal.usda.gov/food-details/169714/nutrients,Dabeka et al. 2003,,,
+white sugar,100,387,0.56,0.56,0.56,0,Sweeteners and Candy,Imported,https://fdc.nal.usda.gov/food-details/169655/nutrients,Dabeka et al. 2003,,,Hg Less than value. 
+White-fronted Geese,100,161,2.3,2.3,2.3,1,Game,Local,https://www.adfg.alaska.gov/index.cfm?adfg=hunting.eating,Rothschild et al. 2005,,Canada Goose,Hg from muscle
+White-winged Scoter,100,84,87.9,87.9,87.9,1,Game,Interior,https://fdc.nal.usda.gov/food-details/167617/nutrients,Rothschild et al. 2005,,,Hg from muscle
+Wild Rhubarb,100,61,0.12,0.12,0.12,1,Traditional Plants and Fungi,Coastal,https://fdc.nal.usda.gov/food-details/168022/nutrients,Dabeka et al. 2003,Lettuce,,
+Wild Rose Hips,100,162,5,5,5,1,Traditional Plants and Fungi,Interior,https://fdc.nal.usda.gov/food-details/168998/nutrients,Golzadeh et al. 2020 for berries,Berries,,
