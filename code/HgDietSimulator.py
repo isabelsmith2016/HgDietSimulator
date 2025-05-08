@@ -3,6 +3,8 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
 import matplotlib.patches as mpatches
+import os, sys
+from pathlib import Path
 
 
 #color mapping for protein substitution and degree of global warming
@@ -22,8 +24,7 @@ condition_colors = {
     }
 
 # import data file
-import os, sys
-from pathlib import Path
+
 code_dir = Path(os.getcwd())
 data_dir = code_dir.parent/'data'
 data = pd.read_csv(data_dir/'Diet Model Data.csv')
@@ -254,7 +255,8 @@ def filter_food_by_area(df, protein_type):
 
 def create_diet(data, calorie_cap, protein_type, condition,threshold=0.05, max_iterations=1000):
     '''
-    # This function creates 1 random diet based on set parameters
+    # This function creates 1 random diet based on set parameters and returns the foods that make up the diet. Returns
+    required calories, total mercury content, total calories, and the calories attributed to traditional foods
         # data - variable holding model data
         # calorie_cap - max number of calories eaten a day
         # protein_type- [location] with/without salmon (protein substituted)
@@ -367,7 +369,8 @@ def create_diet(data, calorie_cap, protein_type, condition,threshold=0.05, max_i
 
 def generate_multiple_diets(data, calorie_cap, protein_type, conditions, threshold=0.05, num_diets=10):
     ''''
-      this function creates multiple diets
+      this function runs the create_diet function multiple time to create (x=num_diets) number of diets
+      and returns information on the diets generated
         # data - variable holding model data
         # calorie_cap - max number of calories eaten a day
         # protein_type- [location] with/without salmon (protein substituted)
@@ -379,7 +382,7 @@ def generate_multiple_diets(data, calorie_cap, protein_type, conditions, thresho
 
     for condition in conditions:
         for i in range(num_diets):  # Run the diet generation for the current condition
-            print(f"Generating {protein_type} diet {i + 1} for {condition} conditions ...")  # Debug print
+            #print(f"Generating {protein_type} diet {i + 1} for {condition} conditions ...")  # Debug print
             diet_df, total_calories, traditional_calories, mercury_content, target_calories = create_diet(
                 data, calorie_cap, protein_type, condition, threshold
             )
@@ -399,7 +402,7 @@ def generate_multiple_diets(data, calorie_cap, protein_type, conditions, thresho
 
     return diets
 
-def permafrost_thaw_distribution(protein_type, conditions, cal_cap, num_runs=1000, tolerance=0.05): #use this to compare warming conditions
+def permafrost_thaw_distribution(protein_type, conditions, cal_cap, num_runs=1000, tolerance=0.05): # use this to compare warming conditions
     """ Generates and plots a distribution of total THg from diets under different thawing permafrost conditions. """
     # Store the THg data for each condition
     thg_data = {condition: [] for condition in conditions}
@@ -407,7 +410,7 @@ def permafrost_thaw_distribution(protein_type, conditions, cal_cap, num_runs=100
 
     # Iterate over each condition
     for condition in conditions:
-        print(f"Generating diets for condition: {condition}")
+        #print(f"Generating diets for condition: {condition}")
 
         # Generate multiple diets using generate_multiple_diets
         diets = generate_multiple_diets(
@@ -487,7 +490,6 @@ def protein_distribution(protein_types, cal_cap, conditions, num_runs=1000, tole
     ax1.set_title(f'Distribution of Total THg for {num_runs} Diets by Protein Type')
     ax1.legend(title='Protein Type')
 
-    # Show the plot
     plt.tight_layout()
     plt.show()
 
@@ -552,14 +554,14 @@ def proteinscenario(store_file_name='protein_type_simulation_results.pkl', num_d
 
     return thg_data, diet_data
 
-def permafrostthaw(store_file_name='permafrost_thaw_simulation_results.pkl', region='Coastal'):
+def permafrostthaw(store_file_name='permafrost_thaw_simulation_results.pkl', num_diets=10000, region='Coastal'):
 
     ''' # Runs simulations for all permafrost thaw scenarios
         # store_file_name- name of file that is holding simulation data
         # region - what part of the Yukon River Basin [Interior or Coastal]
         '''
 
-    num_diets = 10000  # Define the number of diets you want to generate
+    num_diets = num_diets  # Define the number of diets you want to generate
     calorie_cap = WCal # Define calorie cap
 
     if region == 'Coastal':
@@ -577,15 +579,15 @@ def permafrostthaw(store_file_name='permafrost_thaw_simulation_results.pkl', reg
     pd.to_pickle((thg_data, diet_data, thgprotein_type, thgcondition), store_file_name)  # Save as a pickle file
     print(f"Simulation results saved to {store_file_name}.")
 
-def both(store_file_name='both_simulation_results.pkl',region='Coastal'):
+def both(store_file_name='both_simulation_results.pkl', num_diets=10000,region='Coastal'):
 
-    ''' # Runs simulatins for scenarios with both moderate warming and protein substitution
+    ''' # Runs simulations for scenarios with both moderate warming and protein substitution
         # store_file_name- name of file that is holding simulation data
         # region - what part of the Yukon River Basin [Interior or Coastal]
     '''
 
 
-    num_diets = 10000  # Define the number of diets you want to generate
+    num_diets = num_diets  # Define the number of diets you want to generate
     calorie_cap = WCal  # Define calorie cap
 
     protein_condition = ['Moderate']
@@ -607,9 +609,10 @@ def both(store_file_name='both_simulation_results.pkl',region='Coastal'):
 
 def permafrost_thaw_yearly_distribution(file_name='simulation_results.pkl', condition=None, num_samples=365,num_runs=1000):
 
-    '''Randomly selects 365 diets to generate yearly Hg intake under permafrost thawing conditions
+    ''' Randomly selects 365 diets from the 10,000 generated daily diets
+    to generate yearly Hg intake under permafrost thawing conditions
     # file_name- name of file that is holding simulation data
-    # condition- degree of warming
+    # condition - degree of warming
     # num_samples- number of days randomly sampled
     # num_run- how many times you sample
     '''
@@ -653,7 +656,8 @@ def permafrost_thaw_yearly_distribution(file_name='simulation_results.pkl', cond
 
 def proteinyearly_distribution(file_name='simulation_results.pkl', proteins=None, num_samples=365, num_runs=1000): #use for protein and both
 
-    '''Randomly selects 365 diets to generate yearly Hg intake under protein substitution scenarios
+    '''Randomly selects 365 diets from the 10,000 generated daily diets
+    to generate yearly Hg intake under protein substitution scenarios
        # file_name- name of file that is holding simulation data
        # proteins- what proteins are being consumed
        # num_samples- number of days randomly sampled
@@ -697,7 +701,7 @@ def proteinyearly_distribution(file_name='simulation_results.pkl', proteins=None
     return results
 
 def exportpeakdata(simulation='Permafrost Thaw',loadfile="simulation_results.pkl", region='Coastal', exportname ="new_target_results.csv",targets=[10,15]):
-    ''' # exports peak diet results
+    ''' # This function lets you define peaks from distribution plots and export diets that compose the targeted peaks
     # simulation- 'Permafrost Thaw' or 'Protein'
     loadfile- name of file containing the precomputed simulation data
     region- 'Interior' or 'Coastal'
@@ -829,7 +833,7 @@ def exportpeakdata(simulation='Permafrost Thaw',loadfile="simulation_results.pkl
     print(f"Results saved to {exportname}.")
 
 def yearly_distributions_data():
-    ''' Creates Bar plots and error bars for all the different simulations '''
+    ''' Creates Bar plots and stddev error bars for all the different simulations '''
 
     # Yearly Control Values
     hi = proteinyearly_distribution(file_name='interior protein 10k second draft.pkl', proteins=['Interior with Salmon'],
@@ -850,13 +854,13 @@ def yearly_distributions_data():
                                        proteins=['Coastal without Salmon (non-salmon)'], num_samples=365, num_runs=10000)
 
     # Yearly Climate Scenarios
-    nihao = permafrost_thaw_yearly_distribution(file_name='interior permafrost melt 10k second draft.pkl',
+    nihao = permafrost_thaw_yearly_distribution(file_name='interior permafrost thaw 10k second draft.pkl',
                                              condition=['Moderate'], num_samples=365, num_runs=10000)
-    annyeong = permafrost_thaw_yearly_distribution(file_name='interior permafrost melt 10k second draft.pkl',
+    annyeong = permafrost_thaw_yearly_distribution(file_name='interior permafrost thaw 10k second draft.pkl',
                                                 condition=['Severe'], num_samples=365, num_runs=10000)
-    bonvoyage = permafrost_thaw_yearly_distribution(file_name='coastal permafrost melt 10k second draft.pkl',
+    bonvoyage = permafrost_thaw_yearly_distribution(file_name='coastal permafrost thaw 10k second draft.pkl',
                                                  condition=['Moderate'], num_samples=365, num_runs=10000)
-    bienvenue = permafrost_thaw_yearly_distribution(file_name='coastal permafrost melt 10k second draft.pkl',
+    bienvenue = permafrost_thaw_yearly_distribution(file_name='coastal permafrost thaw 10k second draft.pkl',
                                                  condition=['Severe'], num_samples=365, num_runs=10000)
 
 
@@ -1024,13 +1028,13 @@ def main():
     # Functions to run for paper figures
     ''' 1. generate distribution data '''
     #### Coastal ####
-    proteinscenario(store_file_name='coastal protein 10k second draft.pkl',num_diets=1000, region='Coastal')
-    # permafrostthaw(store_file_name='coastal permafrost melt 10k second draft.pkl',region='Coastal')
+    #proteinscenario(store_file_name='coastal protein 100 second draft.pkl',num_diets=100, region='Coastal')
+    # permafrostthaw(store_file_name='coastal permafrost thaw 10k second draft.pkl',region='Coastal')
     # both(store_file_name='moderate coastal both 10k second draft.pkl',region='Coastal')
 
     #### Interior ####
     # proteinscenario(store_file_name='interior protein 10k second draft.pkl', region='Interior')
-    # permafrostthaw(store_file_name='interior permafrost melt 10k second draft.pkl',region='Interior')
+    # permafrostthaw(store_file_name='interior permafrost thaw 10k second draft.pkl',region='Interior')
     # both(store_file_name='moderate interior both 10k second draft.pkl',region='Interior')
 
     ''' 2. Use to extract peak data and export distribution plots'''
@@ -1040,13 +1044,13 @@ def main():
 
     #### simulations with both moderate permafrost thaw and diet substitution ####
     # exportpeakdata(simulation='Protein', loadfile="moderate interior both 10k first draft.pkl", region='Moderate Interior',
-                   #exportname="interior diet survey first draft.csv", targets=[45, 54])
+                   #exportname="interior both diet survey.csv", targets=[45, 54])
     # exportpeakdata(simulation='Protein', loadfile="moderate coastal both 10k first draft.pkl",
-                   #region='Moderate Coastal',exportname="interior diet survey first draft.csv", targets=[45, 54])
+                   #region='Moderate Coastal',exportname="interior both diet survey results.csv", targets=[45, 54])
 
     #### Permafrost thaw only ####
-    # exportpeakdata(simulation='Permafrost Thaw',loadfile="interior permafrost melt 10k second draft.pkl", region="Interior", exportname="coastal permafrost melt first draft.csv", targets=[210,215])
-    # exportpeakdata(simulation='Permafrost Thaw',loadfile="coastal permafrost melt 10k second draft.pkl", region='Coastal', exportname="interior permafrost melt first draft.csv", targets=[24,29,65.3])
+    # exportpeakdata(simulation='Permafrost Thaw',loadfile="interior permafrost thaw 10k second draft.pkl", region="Interior", exportname="interior permafrost thaw first draft.csv", targets=[210,215])
+    # exportpeakdata(simulation='Permafrost Thaw',loadfile="coastal permafrost thaw 10k second draft.pkl", region='Coastal', exportname="coastal permafrost thaw first draft.csv", targets=[24,29,65.3])
 
     '''3. Yearly distribution monte carlo (skip these if going to be using yearly_distribution_data()'''
     # permafrost_thaw_yearly_distribution(file_name='interior with salmon 10k climate change.pkl',condition='Normal', num_samples=365, num_runs=10000)

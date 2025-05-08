@@ -1,1 +1,2 @@
-# NNAWaterQuality
+# HgDietSimulator
+# This file contains the data and code to generate random diets and mercury content under different climate change scenarios (permafrost thaw and changing diet). The notebooks denote examples of how the model was used to generate the Figure 3 and Figure 4 in "The Catch with Climate Change: Salmon Collapse, Permafrost Thaw, and Mercury Exposure via Traditional Diets in the Yukon River Basin" which is under peer-review for Nature Communications. 

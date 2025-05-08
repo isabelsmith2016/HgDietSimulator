@@ -1,0 +1,2917 @@
+Target THg,Protein Type,THg,Diet
+55,Normal,54.99,"                             Item  Amount (g)  Calories  THg (ng/g)   
+0                         Halibut         100       116     292.000  \
+1                         Mallard         100       152      89.300   
+2                           Moose         100       130       3.000   
+3                     Chum Salmon         100       120      41.000   
+4                    Spotted Seal         100       110     130.000   
+5                            Tang         100       250       0.041   
+6                         Peaches         100        39       0.046   
+7   Apple Juice, canned sweetened         100        46       0.099   
+8                       Ice cream         100       207       0.280   
+9                      Dark Bread         100       259       0.370   
+10      Cold Cuts and Lunch Meats         100       214       0.510   
+11                     Mayonnaise         100       361       0.230   
+12                        Burrito         100       212       0.770   
+13                    Maple Syrup         100       260       0.240   
+
+    Moderate Hg Increase  Severe Hg Increase  Traditional Food   
+0                353.320             803.000                 1  \
+1                 89.300              89.300                 1   
+2                  3.000               3.000                 1   
+3                 49.610             112.750                 1   
+4                157.300             357.500                 1   
+5                  0.041               0.041                 0   
+6                  0.046               0.046                 0   
+7                  0.087               0.087                 0   
+8                  0.280               0.280                 0   
+9                  0.370               0.370                 0   
+10                 0.510               0.510                 0   
+11                 0.230               0.230                 0   
+12                 0.770               0.770                 0   
+13                 0.240               0.240                 0   
+
+                    Food Source Coastal/Interior   
+0                    Non-Salmon            Local  \
+1                          Game            Local   
+2             Moose and Caribou            Local   
+3                        Salmon            Local   
+4                 Marine Mammal          Coastal   
+5                Sugared Drinks         Imported   
+6   Store Fruit and Fruit Juice         Imported   
+7   Store Fruit and Fruit Juice         Imported   
+8                Dairy and Eggs         Imported   
+9                        Grains         Imported   
+10             Imported Protein         Imported   
+11               Vegetable Fats         Imported   
+12                 Mixed Dishes         Imported   
+13         Sweeteners and Candy         Imported   
+
+                                     Calorie Citation             Hg Citation   
+0   https://fdc.nal.usda.gov/food-details/167638/n...          2001-2022 ADEC  \
+1   https://www.adfg.alaska.gov/index.cfm?adfg=hun...  Rothschild et al. 2005   
+2   https://www.adfg.alaska.gov/index.cfm?adfg=hun...    Golzadeh et al. 2020   
+3   https://fdc.nal.usda.gov/food-details/173689/n...          2001-2022 ADEC   
+4   https://fdc.nal.usda.gov/food-details/167610/n...        Dehn et al. 2005   
+5   https://fdc.nal.usda.gov/food-details/1636387/...      Dabeka et al. 2003   
+6   https://fdc.nal.usda.gov/food-details/169928/n...      Dabeka et al. 2003   
+7   https://fdc.nal.usda.gov/food-details/167771/n...      Dabeka et al. 2003   
+8   https://fdc.nal.usda.gov/food-details/167575/n...      Dabeka et al. 2003   
+9   https://fdc.nal.usda.gov/food-details/172684/n...      Dabeka et al. 2003   
+10  https://fdc.nal.usda.gov/food-details/170315/n...      Dabeka et al. 2003   
+11  https://fdc.nal.usda.gov/food-details/171443/n...      Dabeka et al. 2003   
+12  https://fdc.nal.usda.gov/food-details/1922049/...      Dabeka et al. 2003   
+13  https://fdc.nal.usda.gov/food-details/169661/n...      Dabeka et al. 2003   
+
+                        Substituted Hg Substituted Calories   
+0                      Pacific Halibut                  NaN  \
+1                                  NaN            Wild duck   
+2                                  NaN                  NaN   
+3                                  NaN                  NaN   
+4                                  NaN    generic seal meat   
+5                           Soft Drink                  NaN   
+6                                  NaN                  NaN   
+7                                  NaN                  NaN   
+8                                  NaN                  NaN   
+9                            Rye Bread                  NaN   
+10                                 NaN                  NaN   
+11                                 NaN                  NaN   
+12  Frozen entrees (microwave or oven)                  NaN   
+13                                 NaN                  NaN   
+
+                             Notes  Scaled Amount (g)  Scaled Calories   
+0                    Hg for fillet             123.11          142.808  \
+1                   Hg from muscle              34.82           52.926   
+2                    Hg for muscle             130.99          170.287   
+3                    Hg for fillet             212.43          254.916   
+4                              NaN              51.24           56.364   
+5                              NaN             129.28          323.200   
+6             Hg Less than value.              181.28           70.699   
+7              Hg Less than value.             153.70           70.702   
+8                              NaN              78.07          161.605   
+9                              NaN              93.59          242.398   
+10                             NaN              66.07          141.390   
+11  Hg Less than value from Ottawa              39.17          141.404   
+12                             NaN              47.64          100.997   
+13            Hg Less than value.               23.31           60.606   
+
+    Traditional Calories  Mercury Content  
+0                142.808           35.948  
+1                 52.926            3.109  
+2                170.287            0.393  
+3                254.916            8.710  
+4                 56.364            6.661  
+5                  0.000            0.005  
+6                  0.000            0.008  
+7                  0.000            0.015  
+8                  0.000            0.022  
+9                  0.000            0.035  
+10                 0.000            0.034  
+11                 0.000            0.009  
+12                 0.000            0.037  
+13                 0.000            0.006  "
+55,Normal,55.02,"                   Item  Amount (g)  Calories  THg (ng/g)   
+0                Burbot         100        90     275.000  \
+1   Lesser Canada Geese         100       161       2.500   
+2                 Moose         100       130       3.000   
+3        Sockeye Salmon         100       153      40.000   
+4          Ringed seal          100       142     100.000   
+5                  Tang         100       250       0.041   
+6               Peaches         100        39       0.046   
+7               Peaches         100        39       0.046   
+8                  Eggs         100       147       0.390   
+9            White Rice         100       366       0.570   
+10              Chicken         100       158       1.700   
+11        Vegetable Oil         100       857       0.250   
+12                Pizza         100       280       0.220   
+13                 Jams         100       250       0.240   
+
+    Moderate Hg Increase  Severe Hg Increase  Traditional Food   
+0                332.750             756.250                 1  \
+1                  2.500               2.500                 1   
+2                  3.000               3.000                 1   
+3                 48.400             110.000                 1   
+4                121.000             275.000                 1   
+5                  0.041               0.041                 0   
+6                  0.046               0.046                 0   
+7                  0.046               0.046                 0   
+8                  0.390               0.390                 0   
+9                  0.570               0.570                 0   
+10                 1.700               1.700                 0   
+11                 0.250               0.250                 0   
+12                 0.220               0.220                 0   
+13                 0.240               0.240                 0   
+
+                    Food Source Coastal/Interior   
+0                    Non-Salmon            Local  \
+1                          Game            Local   
+2             Moose and Caribou            Local   
+3                        Salmon            Local   
+4                 Marine Mammal          Coastal   
+5                Sugared Drinks         Imported   
+6   Store Fruit and Fruit Juice         Imported   
+7   Store Fruit and Fruit Juice         Imported   
+8                Dairy and Eggs         Imported   
+9                        Grains         Imported   
+10             Imported Protein         Imported   
+11               Vegetable Fats         Imported   
+12                 Mixed Dishes         Imported   
+13         Sweeteners and Candy         Imported   
+
+                                     Calorie Citation             Hg Citation   
+0   https://fdc.nal.usda.gov/food-details/171950/n...          2001-2022 ADEC  \
+1   https://www.adfg.alaska.gov/index.cfm?adfg=hun...  Rothschild et al. 2005   
+2   https://www.adfg.alaska.gov/index.cfm?adfg=hun...    Golzadeh et al. 2020   
+3   https://fdc.nal.usda.gov/food-details/168045/n...          2001-2022 ADEC   
+4   https://fdc.nal.usda.gov/food-details/168025/n...        Dehn et al. 2005   
+5   https://fdc.nal.usda.gov/food-details/1636387/...      Dabeka et al. 2003   
+6   https://fdc.nal.usda.gov/food-details/169928/n...      Dabeka et al. 2003   
+7   https://fdc.nal.usda.gov/food-details/169928/n...      Dabeka et al. 2003   
+8   https://fdc.nal.usda.gov/food-details/748967/n...      Dabeka et al. 2003   
+9   https://fdc.nal.usda.gov/food-details/169714/n...      Dabeka et al. 2003   
+10  https://fdc.nal.usda.gov/food-details/331960/n...      Dabeka et al. 2003   
+11  https://fdc.nal.usda.gov/food-details/1625352/...      Dabeka et al. 2003   
+12  https://fdc.nal.usda.gov/food-details/172041/n...      Dabeka et al. 2003   
+13  https://fdc.nal.usda.gov/food-details/1628000/...      Dabeka et al. 2003   
+
+                         Substituted Hg        Substituted Calories   
+0                                   NaN                         NaN  \
+1   canada goose (cackling) B.c. minima                Canada Goose   
+2                                   NaN                         NaN   
+3                                   NaN                         NaN   
+4                                   NaN                         NaN   
+5                            Soft Drink                         NaN   
+6                                   NaN                         NaN   
+7                                   NaN                         NaN   
+8                                   NaN                         NaN   
+9                                   NaN                         NaN   
+10                                  NaN                         NaN   
+11          Cooking fats and Salad oils  Crisco, Pure Vegetable Oil   
+12                                  NaN                         NaN   
+13                                  NaN                         NaN   
+
+                                                Notes  Scaled Amount (g)   
+0                                       Hg for fillet             158.68  \
+1                                      Hg from muscle              32.87   
+2                                       Hg for muscle             130.99   
+3                                       Hg for fillet             166.61   
+4                  Hg from muscle. Barrow caught seal              39.69   
+5                                                 NaN             129.28   
+6                                Hg Less than value.              181.28   
+7                                Hg Less than value.              181.28   
+8   Used Energy (Atwater specific factors) for cal...             109.93   
+9                                                 NaN              66.23   
+10                                                NaN              89.49   
+11                               Hg Less than value.               16.50   
+12                                                NaN              36.07   
+13                               Hg Less than value.               24.24   
+
+    Scaled Calories  Traditional Calories  Mercury Content  
+0           142.812               142.812           43.637  
+1            52.921                52.921            0.082  
+2           170.287               170.287            0.393  
+3           254.913               254.913            6.664  
+4            56.360                56.360            3.969  
+5           323.200                 0.000            0.005  
+6            70.699                 0.000            0.008  
+7            70.699                 0.000            0.008  
+8           161.597                 0.000            0.043  
+9           242.402                 0.000            0.038  
+10          141.394                 0.000            0.152  
+11          141.405                 0.000            0.004  
+12          100.996                 0.000            0.008  
+13           60.600                 0.000            0.006  "
+55,Normal,54.98,"             Item  Amount (g)  Calories  THg (ng/g)  Moderate Hg Increase   
+0         Halibut         100       116     292.000               353.320  \
+1         Mallard         100       152      89.300                89.300   
+2         Caribou         100       127       3.000                 3.000   
+3     Chum Salmon         100       120      41.000                49.610   
+4    Spotted Seal         100       110     130.000               157.300   
+5      Soft drink         100        40       0.041                 0.041   
+6      Apple, raw         100        57       0.110                 0.110   
+7         Bananas         100        89       0.110                 0.110   
+8       Ice cream         100       207       0.280                 0.280   
+9      Dark Bread         100       259       0.370                 0.370   
+10  Peanut Butter         100       520       0.560                 0.560   
+11      Margarine         100       727       0.250                 0.250   
+12      Hamburger         100       264       0.160                 0.160   
+13    Maple Syrup         100       260       0.240                 0.240   
+
+    Severe Hg Increase  Traditional Food                  Food Source   
+0              803.000                 1                   Non-Salmon  \
+1               89.300                 1                         Game   
+2                3.000                 1            Moose and Caribou   
+3              112.750                 1                       Salmon   
+4              357.500                 1                Marine Mammal   
+5                0.041                 0               Sugared Drinks   
+6                0.110                 0  Store Fruit and Fruit Juice   
+7                0.110                 0  Store Fruit and Fruit Juice   
+8                0.280                 0               Dairy and Eggs   
+9                0.370                 0                       Grains   
+10               0.560                 0             Imported Protein   
+11               0.250                 0               Vegetable Fats   
+12               0.160                 0                 Mixed Dishes   
+13               0.240                 0         Sweeteners and Candy   
+
+   Coastal/Interior                                   Calorie Citation   
+0             Local  https://fdc.nal.usda.gov/food-details/167638/n...  \
+1             Local  https://www.adfg.alaska.gov/index.cfm?adfg=hun...   
+2             Local  https://www.adfg.alaska.gov/index.cfm?adfg=hun...   
+3             Local  https://fdc.nal.usda.gov/food-details/173689/n...   
+4           Coastal  https://fdc.nal.usda.gov/food-details/167610/n...   
+5          Imported  https://fdc.nal.usda.gov/food-details/173206/n...   
+6          Imported  https://fdc.nal.usda.gov/food-details/168202/n...   
+7          Imported  https://fdc.nal.usda.gov/food-details/173944/n...   
+8          Imported  https://fdc.nal.usda.gov/food-details/167575/n...   
+9          Imported  https://fdc.nal.usda.gov/food-details/172684/n...   
+10         Imported  https://fdc.nal.usda.gov/food-details/172458/n...   
+11         Imported  https://fdc.nal.usda.gov/food-details/172339/n...   
+12         Imported  https://fdc.nal.usda.gov/food-details/170717/n...   
+13         Imported  https://fdc.nal.usda.gov/food-details/169661/n...   
+
+               Hg Citation             Substituted Hg Substituted Calories   
+0           2001-2022 ADEC            Pacific Halibut                  NaN  \
+1   Rothschild et al. 2005                        NaN            Wild duck   
+2     Schuster et al. 2011                        NaN                  NaN   
+3           2001-2022 ADEC                        NaN                  NaN   
+4         Dehn et al. 2005                        NaN    generic seal meat   
+5       Dabeka et al. 2003                        NaN                  NaN   
+6       Dabeka et al. 2003                        NaN                  NaN   
+7       Dabeka et al. 2003                        NaN                  NaN   
+8       Dabeka et al. 2003                        NaN                  NaN   
+9       Dabeka et al. 2003                  Rye Bread                  NaN   
+10      Dabeka et al. 2003  Peanut butter and peanuts                  NaN   
+11      Dabeka et al. 2003                        NaN                  NaN   
+12      Dabeka et al. 2003                        NaN                  NaN   
+13      Dabeka et al. 2003                        NaN                  NaN   
+
+                   Notes  Scaled Amount (g)  Scaled Calories   
+0          Hg for fillet             123.11          142.808  \
+1         Hg from muscle              34.82           52.926   
+2   Hg Less than value.              134.09          170.294   
+3          Hg for fillet             212.43          254.916   
+4                    NaN              51.24           56.364   
+5   Hg Less than value.              808.00          323.200   
+6   Hg Less than value.              124.04           70.703   
+7   Hg Less than value.               79.44           70.702   
+8                    NaN              78.07          161.605   
+9                    NaN              93.59          242.398   
+10  Hg less than value.               27.19          141.388   
+11  Hg Less than value.               19.45          141.402   
+12                   NaN              38.26          101.006   
+13  Hg Less than value.               23.31           60.606   
+
+    Traditional Calories  Mercury Content  
+0                142.808           35.948  
+1                 52.926            3.109  
+2                170.294            0.402  
+3                254.916            8.710  
+4                 56.364            6.661  
+5                  0.000            0.033  
+6                  0.000            0.014  
+7                  0.000            0.009  
+8                  0.000            0.022  
+9                  0.000            0.035  
+10                 0.000            0.015  
+11                 0.000            0.005  
+12                 0.000            0.006  
+13                 0.000            0.006  "
+55,Normal,54.97,"              Item  Amount (g)  Calories  THg (ng/g)  Moderate Hg Increase   
+0           Burbot         100        90     275.000               332.750  \
+1      Tundra Swan         100       161       2.700                 2.700   
+2            Moose         100       130       3.000                 3.000   
+3   Chinook Salmon         100       179      64.000                77.440   
+4     Bearded seal         100       110      30.000                36.300   
+5             Tang         100       250       0.041                 0.041   
+6     Orange Juice         100        46       0.097                 0.097   
+7     Orange Juice         100        46       0.097                 0.097   
+8           Cheese         100       376       0.510                 0.510   
+9           Cereal         100       322       0.450                 0.450   
+10     Pork, fresh         100       263       1.100                 1.100   
+11       Margarine         100       727       0.250                 0.250   
+12         Burrito         100       212       0.770                 0.770   
+13     Maple Syrup         100       260       0.240                 0.240   
+
+    Severe Hg Increase  Traditional Food                  Food Source   
+0              756.250                 1                   Non-Salmon  \
+1                2.700                 1                         Game   
+2                3.000                 1            Moose and Caribou   
+3              176.000                 1                       Salmon   
+4               82.500                 1                Marine Mammal   
+5                0.041                 0               Sugared Drinks   
+6                0.097                 0  Store Fruit and Fruit Juice   
+7                0.097                 0  Store Fruit and Fruit Juice   
+8                0.510                 0               Dairy and Eggs   
+9                0.450                 0                       Grains   
+10               1.100                 0             Imported Protein   
+11               0.250                 0               Vegetable Fats   
+12               0.770                 0                 Mixed Dishes   
+13               0.240                 0         Sweeteners and Candy   
+
+   Coastal/Interior                                   Calorie Citation   
+0             Local  https://fdc.nal.usda.gov/food-details/171950/n...  \
+1           Coastal  https://www.adfg.alaska.gov/index.cfm?adfg=hun...   
+2             Local  https://www.adfg.alaska.gov/index.cfm?adfg=hun...   
+3             Local  https://fdc.nal.usda.gov/food-details/173688/n...   
+4           Coastal  https://fdc.nal.usda.gov/food-details/167610/n...   
+5          Imported  https://fdc.nal.usda.gov/food-details/1636387/...   
+6          Imported  https://fdc.nal.usda.gov/food-details/171913/n...   
+7          Imported  https://fdc.nal.usda.gov/food-details/171913/n...   
+8          Imported  https://fdc.nal.usda.gov/food-details/168121/n...   
+9          Imported  https://fdc.nal.usda.gov/food-details/1886230/...   
+10         Imported  https://fdc.nal.usda.gov/food-details/167902/n...   
+11         Imported  https://fdc.nal.usda.gov/food-details/172339/n...   
+12         Imported  https://fdc.nal.usda.gov/food-details/1922049/...   
+13         Imported  https://fdc.nal.usda.gov/food-details/169661/n...   
+
+               Hg Citation                      Substituted Hg   
+0           2001-2022 ADEC                                 NaN  \
+1   Rothschild et al. 2005                                 NaN   
+2     Golzadeh et al. 2020                                 NaN   
+3           2001-2012 ADEC                                 NaN   
+4         Dehn et al. 2005                                 NaN   
+5       Dabeka et al. 2003                          Soft Drink   
+6       Dabeka et al. 2003                Citrus Juice, canned   
+7       Dabeka et al. 2003                Citrus Juice, canned   
+8       Dabeka et al. 2003            Processed cheddar cheese   
+9       Dabeka et al. 2003               Wheat and Bran Cereal   
+10      Dabeka et al. 2003                                 NaN   
+11      Dabeka et al. 2003                                 NaN   
+12      Dabeka et al. 2003  Frozen entrees (microwave or oven)   
+13      Dabeka et al. 2003                                 NaN   
+
+   Substituted Calories                 Notes  Scaled Amount (g)   
+0                   NaN         Hg for fillet             158.68  \
+1           Canda Goose        Hg from muscle              32.87   
+2                   NaN         Hg for muscle             130.99   
+3                   NaN         Hg for fillet             142.41   
+4     Generic seal meat       Hg from muscle.              51.24   
+5                   NaN                   NaN             129.28   
+6                   NaN  Hg Less than value.              153.70   
+7                   NaN  Hg Less than value.              153.70   
+8                   NaN  Hg Less than value.               42.98   
+9                   NaN  Hg Less than value.               75.28   
+10                  NaN                   NaN              53.76   
+11                  NaN  Hg Less than value.               19.45   
+12                  NaN                   NaN              47.64   
+13                  NaN  Hg Less than value.               23.31   
+
+    Scaled Calories  Traditional Calories  Mercury Content  
+0           142.812               142.812           43.637  
+1            52.921                52.921            0.089  
+2           170.287               170.287            0.393  
+3           254.914               254.914            9.114  
+4            56.364                56.364            1.537  
+5           323.200                 0.000            0.005  
+6            70.702                 0.000            0.015  
+7            70.702                 0.000            0.015  
+8           161.605                 0.000            0.022  
+9           242.402                 0.000            0.034  
+10          141.389                 0.000            0.059  
+11          141.402                 0.000            0.005  
+12          100.997                 0.000            0.037  
+13           60.606                 0.000            0.006  "
+55,Normal,54.96,"                             Item  Amount (g)  Calories  THg (ng/g)   
+0                          Burbot         100        90     275.000  \
+1                Northern Pintail         100       211      38.500   
+2                           Moose         100       130       3.000   
+3                  Chinook Salmon         100       179      64.000   
+4                          Walrus         100       199      21.000   
+5                            Tang         100       250       0.041   
+6   Apple Juice, canned sweetened         100        46       0.099   
+7                     Apple Sauce         100        50       0.099   
+8                          Cheese         100       376       0.510   
+9                        Pancakes         100       269       0.350   
+10                        Chicken         100       158       1.700   
+11                  Vegetable Oil         100       857       0.250   
+12                          Pizza         100       280       0.220   
+13                           Jams         100       250       0.240   
+
+    Moderate Hg Increase  Severe Hg Increase  Traditional Food   
+0                332.750             756.250                 1  \
+1                 38.500              38.500                 1   
+2                  3.000               3.000                 1   
+3                 77.440             176.000                 1   
+4                 25.410              57.750                 1   
+5                  0.041               0.041                 0   
+6                  0.087               0.087                 0   
+7                  0.099               0.099                 0   
+8                  0.510               0.510                 0   
+9                  0.350               0.350                 0   
+10                 1.700               1.700                 0   
+11                 0.250               0.250                 0   
+12                 0.220               0.220                 0   
+13                 0.240               0.240                 0   
+
+                    Food Source Coastal/Interior   
+0                    Non-Salmon            Local  \
+1                          Game            Local   
+2             Moose and Caribou            Local   
+3                        Salmon            Local   
+4                 Marine Mammal          Coastal   
+5                Sugared Drinks         Imported   
+6   Store Fruit and Fruit Juice         Imported   
+7   Store Fruit and Fruit Juice         Imported   
+8                Dairy and Eggs         Imported   
+9                        Grains         Imported   
+10             Imported Protein         Imported   
+11               Vegetable Fats         Imported   
+12                 Mixed Dishes         Imported   
+13         Sweeteners and Candy         Imported   
+
+                                     Calorie Citation             Hg Citation   
+0   https://fdc.nal.usda.gov/food-details/171950/n...          2001-2022 ADEC  \
+1   https://fdc.nal.usda.gov/food-details/174468/n...  Rothschild et al. 2005   
+2   https://www.adfg.alaska.gov/index.cfm?adfg=hun...    Golzadeh et al. 2020   
+3   https://fdc.nal.usda.gov/food-details/173688/n...          2001-2012 ADEC   
+4   https://fdc.nal.usda.gov/food-details/168029/n...  Quakenbush et al. 2016   
+5   https://fdc.nal.usda.gov/food-details/1636387/...      Dabeka et al. 2003   
+6   https://fdc.nal.usda.gov/food-details/167771/n...      Dabeka et al. 2003   
+7   https://fdc.nal.usda.gov/food-details/2104794/...      Dabeka et al. 2003   
+8   https://fdc.nal.usda.gov/food-details/168121/n...      Dabeka et al. 2003   
+9   https://fdc.nal.usda.gov/food-details/174086/n...      Dabeka et al. 2003   
+10  https://fdc.nal.usda.gov/food-details/331960/n...      Dabeka et al. 2003   
+11  https://fdc.nal.usda.gov/food-details/1625352/...      Dabeka et al. 2003   
+12  https://fdc.nal.usda.gov/food-details/172041/n...      Dabeka et al. 2003   
+13  https://fdc.nal.usda.gov/food-details/1628000/...      Dabeka et al. 2003   
+
+                 Substituted Hg        Substituted Calories   
+0                           NaN                         NaN  \
+1                           NaN                   Wild duck   
+2                           NaN                         NaN   
+3                           NaN                         NaN   
+4                           NaN                         NaN   
+5                    Soft Drink                         NaN   
+6                           NaN                         NaN   
+7                           NaN                         NaN   
+8      Processed cheddar cheese                         NaN   
+9                           NaN                         NaN   
+10                          NaN                         NaN   
+11  Cooking fats and Salad oils  Crisco, Pure Vegetable Oil   
+12                          NaN                         NaN   
+13                          NaN                         NaN   
+
+                   Notes  Scaled Amount (g)  Scaled Calories   
+0          Hg for fillet             158.68          142.812  \
+1         Hg from muscle              25.08           52.919   
+2          Hg for muscle             130.99          170.287   
+3          Hg for fillet             142.41          254.914   
+4         Hg from muscle              28.32           56.357   
+5                    NaN             129.28          323.200   
+6    Hg Less than value.             153.70           70.702   
+7   Hg Less than value.              141.40           70.700   
+8   Hg Less than value.               42.98          161.605   
+9   Hg Less than value.               90.11          242.396   
+10                   NaN              89.49          141.394   
+11  Hg Less than value.               16.50          141.405   
+12                   NaN              36.07          100.996   
+13  Hg Less than value.               24.24           60.600   
+
+    Traditional Calories  Mercury Content  
+0                142.812           43.637  
+1                 52.919            0.966  
+2                170.287            0.393  
+3                254.914            9.114  
+4                 56.357            0.595  
+5                  0.000            0.005  
+6                  0.000            0.015  
+7                  0.000            0.014  
+8                  0.000            0.022  
+9                  0.000            0.032  
+10                 0.000            0.152  
+11                 0.000            0.004  
+12                 0.000            0.008  
+13                 0.000            0.006  "
+55,Moderate,55.17,"                Item  Amount (g)  Calories  THg (ng/g)  Moderate Hg Increase   
+0            Halibut         100       116     292.000               353.320  \
+1   Northern Pintail         100       211      38.500                38.500   
+2              Moose         100       130       3.000                 3.000   
+3        Coho Salmon         100       140      43.000                52.030   
+4             Walrus         100       199      21.000                25.410   
+5               Tang         100       250       0.041                 0.041   
+6        Apple Sauce         100        50       0.099                 0.099   
+7            Oranges         100        97       0.120                 0.120   
+8             Cheese         100       376       0.510                 0.510   
+9         Dark Bread         100       259       0.370                 0.370   
+10           Hot Dog         100       310       0.360                 0.360   
+11        Mayonnaise         100       361       0.230                 0.230   
+12             Pizza         100       280       0.220                 0.220   
+13              Jams         100       250       0.240                 0.240   
+
+    Severe Hg Increase  Traditional Food                  Food Source   
+0              803.000                 1                   Non-Salmon  \
+1               38.500                 1                         Game   
+2                3.000                 1            Moose and Caribou   
+3              118.250                 1                       Salmon   
+4               57.750                 1                Marine Mammal   
+5                0.041                 0               Sugared Drinks   
+6                0.099                 0  Store Fruit and Fruit Juice   
+7                0.120                 0  Store Fruit and Fruit Juice   
+8                0.510                 0               Dairy and Eggs   
+9                0.370                 0                       Grains   
+10               0.360                 0             Imported Protein   
+11               0.230                 0               Vegetable Fats   
+12               0.220                 0                 Mixed Dishes   
+13               0.240                 0         Sweeteners and Candy   
+
+   Coastal/Interior                                   Calorie Citation   
+0             Local  https://fdc.nal.usda.gov/food-details/167638/n...  \
+1             Local  https://fdc.nal.usda.gov/food-details/174468/n...   
+2             Local  https://www.adfg.alaska.gov/index.cfm?adfg=hun...   
+3             Local  https://fdc.nal.usda.gov/food-details/167639/n...   
+4           Coastal  https://fdc.nal.usda.gov/food-details/168029/n...   
+5          Imported  https://fdc.nal.usda.gov/food-details/1636387/...   
+6          Imported  https://fdc.nal.usda.gov/food-details/2104794/...   
+7          Imported  https://fdc.nal.usda.gov/food-details/169103/n...   
+8          Imported  https://fdc.nal.usda.gov/food-details/168121/n...   
+9          Imported  https://fdc.nal.usda.gov/food-details/172684/n...   
+10         Imported  https://fdc.nal.usda.gov/food-details/323121/n...   
+11         Imported  https://fdc.nal.usda.gov/food-details/171443/n...   
+12         Imported  https://fdc.nal.usda.gov/food-details/172041/n...   
+13         Imported  https://fdc.nal.usda.gov/food-details/1628000/...   
+
+               Hg Citation            Substituted Hg Substituted Calories   
+0           2001-2022 ADEC           Pacific Halibut                  NaN  \
+1   Rothschild et al. 2005                       NaN            Wild duck   
+2     Golzadeh et al. 2020                       NaN                  NaN   
+3           2001-2022 ADEC                       NaN                  NaN   
+4   Quakenbush et al. 2016                       NaN                  NaN   
+5       Dabeka et al. 2003                Soft Drink                  NaN   
+6       Dabeka et al. 2003                       NaN                  NaN   
+7       Dabeka et al. 2003         Citrus fruit, raw                  NaN   
+8       Dabeka et al. 2003  Processed cheddar cheese                  NaN   
+9       Dabeka et al. 2003                 Rye Bread                  NaN   
+10      Dabeka et al. 2003                       NaN                  NaN   
+11      Dabeka et al. 2003                       NaN                  NaN   
+12      Dabeka et al. 2003                       NaN                  NaN   
+13      Dabeka et al. 2003                       NaN                  NaN   
+
+                             Notes  Scaled Amount (g)  Scaled Calories   
+0                    Hg for fillet             123.11          142.808  \
+1                   Hg from muscle              25.08           52.919   
+2                    Hg for muscle             130.99          170.287   
+3                    Hg for fillet             182.09          254.926   
+4                   Hg from muscle              28.32           56.357   
+5                              NaN             129.28          323.200   
+6             Hg Less than value.              141.40           70.700   
+7             Hg Less than value.               72.89           70.703   
+8             Hg Less than value.               42.98          161.605   
+9                              NaN              93.59          242.398   
+10                             NaN              45.61          141.391   
+11  Hg Less than value from Ottawa              39.17          141.404   
+12                             NaN              36.07          100.996   
+13            Hg Less than value.               24.24           60.600   
+
+    Traditional Calories  Mercury Content  
+0                142.808           43.497  
+1                 52.919            0.966  
+2                170.287            0.393  
+3                254.926            9.474  
+4                 56.357            0.720  
+5                  0.000            0.005  
+6                  0.000            0.014  
+7                  0.000            0.009  
+8                  0.000            0.022  
+9                  0.000            0.035  
+10                 0.000            0.016  
+11                 0.000            0.009  
+12                 0.000            0.008  
+13                 0.000            0.006  "
+55,Moderate,55.18,"                Item  Amount (g)  Calories  THg (ng/g)  Moderate Hg Increase   
+0            Halibut         100       116     292.000               353.320  \
+1   Northern Pintail         100       211      38.500                38.500   
+2            Caribou         100       127       3.000                 3.000   
+3        Coho Salmon         100       140      43.000                52.030   
+4             Walrus         100       199      21.000                25.410   
+5               Tang         100       250       0.041                 0.041   
+6            Peaches         100        39       0.046                 0.046   
+7            Peaches         100        39       0.046                 0.046   
+8             Cheese         100       376       0.510                 0.510   
+9         White Rice         100       366       0.570                 0.570   
+10           Hot Dog         100       310       0.360                 0.360   
+11        Mayonnaise         100       361       0.230                 0.230   
+12             Pizza         100       280       0.220                 0.220   
+13       Maple Syrup         100       260       0.240                 0.240   
+
+    Severe Hg Increase  Traditional Food                  Food Source   
+0              803.000                 1                   Non-Salmon  \
+1               38.500                 1                         Game   
+2                3.000                 1            Moose and Caribou   
+3              118.250                 1                       Salmon   
+4               57.750                 1                Marine Mammal   
+5                0.041                 0               Sugared Drinks   
+6                0.046                 0  Store Fruit and Fruit Juice   
+7                0.046                 0  Store Fruit and Fruit Juice   
+8                0.510                 0               Dairy and Eggs   
+9                0.570                 0                       Grains   
+10               0.360                 0             Imported Protein   
+11               0.230                 0               Vegetable Fats   
+12               0.220                 0                 Mixed Dishes   
+13               0.240                 0         Sweeteners and Candy   
+
+   Coastal/Interior                                   Calorie Citation   
+0             Local  https://fdc.nal.usda.gov/food-details/167638/n...  \
+1             Local  https://fdc.nal.usda.gov/food-details/174468/n...   
+2             Local  https://www.adfg.alaska.gov/index.cfm?adfg=hun...   
+3             Local  https://fdc.nal.usda.gov/food-details/167639/n...   
+4           Coastal  https://fdc.nal.usda.gov/food-details/168029/n...   
+5          Imported  https://fdc.nal.usda.gov/food-details/1636387/...   
+6          Imported  https://fdc.nal.usda.gov/food-details/169928/n...   
+7          Imported  https://fdc.nal.usda.gov/food-details/169928/n...   
+8          Imported  https://fdc.nal.usda.gov/food-details/168121/n...   
+9          Imported  https://fdc.nal.usda.gov/food-details/169714/n...   
+10         Imported  https://fdc.nal.usda.gov/food-details/323121/n...   
+11         Imported  https://fdc.nal.usda.gov/food-details/171443/n...   
+12         Imported  https://fdc.nal.usda.gov/food-details/172041/n...   
+13         Imported  https://fdc.nal.usda.gov/food-details/169661/n...   
+
+               Hg Citation            Substituted Hg Substituted Calories   
+0           2001-2022 ADEC           Pacific Halibut                  NaN  \
+1   Rothschild et al. 2005                       NaN            Wild duck   
+2     Schuster et al. 2011                       NaN                  NaN   
+3           2001-2022 ADEC                       NaN                  NaN   
+4   Quakenbush et al. 2016                       NaN                  NaN   
+5       Dabeka et al. 2003                Soft Drink                  NaN   
+6       Dabeka et al. 2003                       NaN                  NaN   
+7       Dabeka et al. 2003                       NaN                  NaN   
+8       Dabeka et al. 2003  Processed cheddar cheese                  NaN   
+9       Dabeka et al. 2003                       NaN                  NaN   
+10      Dabeka et al. 2003                       NaN                  NaN   
+11      Dabeka et al. 2003                       NaN                  NaN   
+12      Dabeka et al. 2003                       NaN                  NaN   
+13      Dabeka et al. 2003                       NaN                  NaN   
+
+                             Notes  Scaled Amount (g)  Scaled Calories   
+0                    Hg for fillet             123.11          142.808  \
+1                   Hg from muscle              25.08           52.919   
+2             Hg Less than value.              134.09          170.294   
+3                    Hg for fillet             182.09          254.926   
+4                   Hg from muscle              28.32           56.357   
+5                              NaN             129.28          323.200   
+6             Hg Less than value.              181.28           70.699   
+7             Hg Less than value.              181.28           70.699   
+8             Hg Less than value.               42.98          161.605   
+9                              NaN              66.23          242.402   
+10                             NaN              45.61          141.391   
+11  Hg Less than value from Ottawa              39.17          141.404   
+12                             NaN              36.07          100.996   
+13            Hg Less than value.               23.31           60.606   
+
+    Traditional Calories  Mercury Content  
+0                142.808           43.497  
+1                 52.919            0.966  
+2                170.294            0.402  
+3                254.926            9.474  
+4                 56.357            0.720  
+5                  0.000            0.005  
+6                  0.000            0.008  
+7                  0.000            0.008  
+8                  0.000            0.022  
+9                  0.000            0.038  
+10                 0.000            0.016  
+11                 0.000            0.009  
+12                 0.000            0.008  
+13                 0.000            0.006  "
+55,Moderate,55.19,"                Item  Amount (g)  Calories  THg (ng/g)  Moderate Hg Increase   
+0            Halibut         100       116     292.000               353.320  \
+1   Northern Pintail         100       211      38.500                38.500   
+2            Caribou         100       127       3.000                 3.000   
+3        Coho Salmon         100       140      43.000                52.030   
+4             Walrus         100       199      21.000                25.410   
+5               Tang         100       250       0.041                 0.041   
+6        Apple Sauce         100        50       0.099                 0.099   
+7            Oranges         100        97       0.120                 0.120   
+8             Cheese         100       376       0.510                 0.510   
+9        Pilot bread         100       417       0.350                 0.350   
+10      Canned Meats         100       334       0.360                 0.360   
+11            Crisco         100       917       0.250                 0.250   
+12              Soup         100        41       0.150                 0.150   
+13              Jams         100       250       0.240                 0.240   
+
+    Severe Hg Increase  Traditional Food                  Food Source   
+0              803.000                 1                   Non-Salmon  \
+1               38.500                 1                         Game   
+2                3.000                 1            Moose and Caribou   
+3              118.250                 1                       Salmon   
+4               57.750                 1                Marine Mammal   
+5                0.041                 0               Sugared Drinks   
+6                0.099                 0  Store Fruit and Fruit Juice   
+7                0.120                 0  Store Fruit and Fruit Juice   
+8                0.510                 0               Dairy and Eggs   
+9                0.350                 0                       Grains   
+10               0.360                 0             Imported Protein   
+11               0.250                 0               Vegetable Fats   
+12               0.150                 0                 Mixed Dishes   
+13               0.240                 0         Sweeteners and Candy   
+
+   Coastal/Interior                                   Calorie Citation   
+0             Local  https://fdc.nal.usda.gov/food-details/167638/n...  \
+1             Local  https://fdc.nal.usda.gov/food-details/174468/n...   
+2             Local  https://www.adfg.alaska.gov/index.cfm?adfg=hun...   
+3             Local  https://fdc.nal.usda.gov/food-details/167639/n...   
+4           Coastal  https://fdc.nal.usda.gov/food-details/168029/n...   
+5          Imported  https://fdc.nal.usda.gov/food-details/1636387/...   
+6          Imported  https://fdc.nal.usda.gov/food-details/2104794/...   
+7          Imported  https://fdc.nal.usda.gov/food-details/169103/n...   
+8          Imported  https://fdc.nal.usda.gov/food-details/168121/n...   
+9          Imported  https://fdc.nal.usda.gov/food-details/2032853/...   
+10         Imported  https://fdc.nal.usda.gov/food-details/174571/n...   
+11         Imported  https://fdc.nal.usda.gov/food-details/2572337/...   
+12         Imported  https://fdc.nal.usda.gov/food-details/174545/n...   
+13         Imported  https://fdc.nal.usda.gov/food-details/1628000/...   
+
+               Hg Citation               Substituted Hg   
+0           2001-2022 ADEC              Pacific Halibut  \
+1   Rothschild et al. 2005                          NaN   
+2     Schuster et al. 2011                          NaN   
+3           2001-2022 ADEC                          NaN   
+4   Quakenbush et al. 2016                          NaN   
+5       Dabeka et al. 2003                   Soft Drink   
+6       Dabeka et al. 2003                          NaN   
+7       Dabeka et al. 2003            Citrus fruit, raw   
+8       Dabeka et al. 2003     Processed cheddar cheese   
+9       Dabeka et al. 2003                     Crackers   
+10      Dabeka et al. 2003                          NaN   
+11      Dabeka et al. 2003  Cooking fats and Salad oils   
+12      Dabeka et al. 2003           Soup, meat, canned   
+13      Dabeka et al. 2003                          NaN   
+
+          Substituted Calories                 Notes  Scaled Amount (g)   
+0                          NaN         Hg for fillet             123.11  \
+1                    Wild duck        Hg from muscle              25.08   
+2                          NaN  Hg Less than value.              134.09   
+3                          NaN         Hg for fillet             182.09   
+4                          NaN        Hg from muscle              28.32   
+5                          NaN                   NaN             129.28   
+6                          NaN  Hg Less than value.              141.40   
+7                          NaN  Hg Less than value.               72.89   
+8                          NaN  Hg Less than value.               42.98   
+9                          NaN  Hg Less than value.               58.13   
+10                         NaN                   NaN              42.34   
+11  Crisco, Pure Vegetable Oil  Hg Less than value.               15.42   
+12                         NaN                   NaN             246.34   
+13                         NaN  Hg Less than value.               24.24   
+
+    Scaled Calories  Traditional Calories  Mercury Content  
+0           142.808               142.808           43.497  
+1            52.919                52.919            0.966  
+2           170.294               170.294            0.402  
+3           254.926               254.926            9.474  
+4            56.357                56.357            0.720  
+5           323.200                 0.000            0.005  
+6            70.700                 0.000            0.014  
+7            70.703                 0.000            0.009  
+8           161.605                 0.000            0.022  
+9           242.402                 0.000            0.020  
+10          141.416                 0.000            0.015  
+11          141.401                 0.000            0.004  
+12          100.999                 0.000            0.037  
+13           60.600                 0.000            0.006  "
+55,Moderate,55.22,"                             Item  Amount (g)  Calories  THg (ng/g)   
+0                         Halibut         100       116     292.000  \
+1                Northern Pintail         100       211      38.500   
+2                         Caribou         100       127       3.000   
+3                     Coho Salmon         100       140      43.000   
+4                          Walrus         100       199      21.000   
+5                            Tang         100       250       0.041   
+6   Apple Juice, canned sweetened         100        46       0.099   
+7                    Orange Juice         100        46       0.097   
+8                            Milk         100        60       0.130   
+9                       Spagehtti         100       157       0.110   
+10                    Pork, fresh         100       263       1.100   
+11                      Margarine         100       727       0.250   
+12                      Hamburger         100       264       0.160   
+13                           Jams         100       250       0.240   
+
+    Moderate Hg Increase  Severe Hg Increase  Traditional Food   
+0                353.320             803.000                 1  \
+1                 38.500              38.500                 1   
+2                  3.000               3.000                 1   
+3                 52.030             118.250                 1   
+4                 25.410              57.750                 1   
+5                  0.041               0.041                 0   
+6                  0.087               0.087                 0   
+7                  0.097               0.097                 0   
+8                  0.130               0.130                 0   
+9                  0.110               0.110                 0   
+10                 1.100               1.100                 0   
+11                 0.250               0.250                 0   
+12                 0.160               0.160                 0   
+13                 0.240               0.240                 0   
+
+                    Food Source Coastal/Interior   
+0                    Non-Salmon            Local  \
+1                          Game            Local   
+2             Moose and Caribou            Local   
+3                        Salmon            Local   
+4                 Marine Mammal          Coastal   
+5                Sugared Drinks         Imported   
+6   Store Fruit and Fruit Juice         Imported   
+7   Store Fruit and Fruit Juice         Imported   
+8                Dairy and Eggs         Imported   
+9                        Grains         Imported   
+10             Imported Protein         Imported   
+11               Vegetable Fats         Imported   
+12                 Mixed Dishes         Imported   
+13         Sweeteners and Candy         Imported   
+
+                                     Calorie Citation             Hg Citation   
+0   https://fdc.nal.usda.gov/food-details/167638/n...          2001-2022 ADEC  \
+1   https://fdc.nal.usda.gov/food-details/174468/n...  Rothschild et al. 2005   
+2   https://www.adfg.alaska.gov/index.cfm?adfg=hun...    Schuster et al. 2011   
+3   https://fdc.nal.usda.gov/food-details/167639/n...          2001-2022 ADEC   
+4   https://fdc.nal.usda.gov/food-details/168029/n...  Quakenbush et al. 2016   
+5   https://fdc.nal.usda.gov/food-details/1636387/...      Dabeka et al. 2003   
+6   https://fdc.nal.usda.gov/food-details/167771/n...      Dabeka et al. 2003   
+7   https://fdc.nal.usda.gov/food-details/171913/n...      Dabeka et al. 2003   
+8   https://fdc.nal.usda.gov/food-details/746782/n...      Dabeka et al. 2003   
+9   https://fdc.nal.usda.gov/food-details/172014/n...      Dabeka et al. 2003   
+10  https://fdc.nal.usda.gov/food-details/167902/n...      Dabeka et al. 2003   
+11  https://fdc.nal.usda.gov/food-details/172339/n...      Dabeka et al. 2003   
+12  https://fdc.nal.usda.gov/food-details/170717/n...      Dabeka et al. 2003   
+13  https://fdc.nal.usda.gov/food-details/1628000/...      Dabeka et al. 2003   
+
+          Substituted Hg Substituted Calories   
+0        Pacific Halibut                  NaN  \
+1                    NaN            Wild duck   
+2                    NaN                  NaN   
+3                    NaN                  NaN   
+4                    NaN                  NaN   
+5             Soft Drink                  NaN   
+6                    NaN                  NaN   
+7   Citrus Juice, canned                  NaN   
+8            Whole Milk                   NaN   
+9           Pasta, plain                  NaN   
+10                   NaN                  NaN   
+11                   NaN                  NaN   
+12                   NaN                  NaN   
+13                   NaN                  NaN   
+
+                                                Notes  Scaled Amount (g)   
+0                                       Hg for fillet             123.11  \
+1                                      Hg from muscle              25.08   
+2                                Hg Less than value.              134.09   
+3                                       Hg for fillet             182.09   
+4                                      Hg from muscle              28.32   
+5                                                 NaN             129.28   
+6                                 Hg Less than value.             153.70   
+7                                Hg Less than value.              153.70   
+8   Used Energy (Atwater specific factors) for cal...             269.33   
+9                                Hg Less than value.              154.39   
+10                                                NaN              53.76   
+11                               Hg Less than value.               19.45   
+12                                                NaN              38.26   
+13                               Hg Less than value.               24.24   
+
+    Scaled Calories  Traditional Calories  Mercury Content  
+0           142.808               142.808           43.497  
+1            52.919                52.919            0.966  
+2           170.294               170.294            0.402  
+3           254.926               254.926            9.474  
+4            56.357                56.357            0.720  
+5           323.200                 0.000            0.005  
+6            70.702                 0.000            0.013  
+7            70.702                 0.000            0.015  
+8           161.598                 0.000            0.035  
+9           242.392                 0.000            0.017  
+10          141.389                 0.000            0.059  
+11          141.402                 0.000            0.005  
+12          101.006                 0.000            0.006  
+13           60.600                 0.000            0.006  "
+55,Moderate,55.34,"                         Item  Amount (g)  Calories  THg (ng/g)   
+0                     Halibut         100       116     292.000  \
+1                       Brant         100       161       2.300   
+2                       Moose         100       130       3.000   
+3                 Chum Salmon         100       120      41.000   
+4                      Walrus         100       199      21.000   
+5                        Tang         100       250       0.041   
+6                  Apple, raw         100        57       0.110   
+7                 Apple Sauce         100        50       0.099   
+8                      Butter         100       717       0.430   
+9                 Pilot bread         100       417       0.350   
+10  Cold Cuts and Lunch Meats         100       214       0.510   
+11                     Crisco         100       917       0.250   
+12                 Hot Pocket         100       252       0.220   
+13                Maple Syrup         100       260       0.240   
+
+    Moderate Hg Increase  Severe Hg Increase  Traditional Food   
+0                353.320             803.000                 1  \
+1                  2.300               2.300                 1   
+2                  3.000               3.000                 1   
+3                 49.610             112.750                 1   
+4                 25.410              57.750                 1   
+5                  0.041               0.041                 0   
+6                  0.110               0.110                 0   
+7                  0.099               0.099                 0   
+8                  0.430               0.430                 0   
+9                  0.350               0.350                 0   
+10                 0.510               0.510                 0   
+11                 0.250               0.250                 0   
+12                 0.220               0.220                 0   
+13                 0.240               0.240                 0   
+
+                    Food Source Coastal/Interior   
+0                    Non-Salmon            Local  \
+1                          Game          Coastal   
+2             Moose and Caribou            Local   
+3                        Salmon            Local   
+4                 Marine Mammal          Coastal   
+5                Sugared Drinks         Imported   
+6   Store Fruit and Fruit Juice         Imported   
+7   Store Fruit and Fruit Juice         Imported   
+8                Dairy and Eggs         Imported   
+9                        Grains         Imported   
+10             Imported Protein         Imported   
+11               Vegetable Fats         Imported   
+12                 Mixed Dishes         Imported   
+13         Sweeteners and Candy         Imported   
+
+                                     Calorie Citation             Hg Citation   
+0   https://fdc.nal.usda.gov/food-details/167638/n...          2001-2022 ADEC  \
+1   https://www.adfg.alaska.gov/index.cfm?adfg=hun...  Rothschild et al. 2005   
+2   https://www.adfg.alaska.gov/index.cfm?adfg=hun...    Golzadeh et al. 2020   
+3   https://fdc.nal.usda.gov/food-details/173689/n...          2001-2022 ADEC   
+4   https://fdc.nal.usda.gov/food-details/168029/n...  Quakenbush et al. 2016   
+5   https://fdc.nal.usda.gov/food-details/1636387/...      Dabeka et al. 2003   
+6   https://fdc.nal.usda.gov/food-details/168202/n...      Dabeka et al. 2003   
+7   https://fdc.nal.usda.gov/food-details/2104794/...      Dabeka et al. 2003   
+8   https://fdc.nal.usda.gov/food-details/173410/n...      Dabeka et al. 2003   
+9   https://fdc.nal.usda.gov/food-details/2032853/...      Dabeka et al. 2003   
+10  https://fdc.nal.usda.gov/food-details/170315/n...      Dabeka et al. 2003   
+11  https://fdc.nal.usda.gov/food-details/2572337/...      Dabeka et al. 2003   
+12  https://fdc.nal.usda.gov/food-details/172107/n...      Dabeka et al. 2003   
+13  https://fdc.nal.usda.gov/food-details/169661/n...      Dabeka et al. 2003   
+
+                 Substituted Hg        Substituted Calories   
+0               Pacific Halibut                         NaN  \
+1                           NaN                Canada Goose   
+2                           NaN                         NaN   
+3                           NaN                         NaN   
+4                           NaN                         NaN   
+5                    Soft Drink                         NaN   
+6                           NaN                         NaN   
+7                           NaN                         NaN   
+8                           NaN                         NaN   
+9                      Crackers                         NaN   
+10                          NaN                         NaN   
+11  Cooking fats and Salad oils  Crisco, Pure Vegetable Oil   
+12                        Pizza                         NaN   
+13                          NaN                         NaN   
+
+                   Notes  Scaled Amount (g)  Scaled Calories   
+0          Hg for fillet             123.11          142.808  \
+1         Hg from muscle              32.87           52.921   
+2          Hg for muscle             130.99          170.287   
+3          Hg for fillet             212.43          254.916   
+4         Hg from muscle              28.32           56.357   
+5                    NaN             129.28          323.200   
+6   Hg Less than value.              124.04           70.703   
+7   Hg Less than value.              141.40           70.700   
+8   Hg Less than value.               22.54          161.612   
+9   Hg Less than value.               58.13          242.402   
+10                   NaN              66.07          141.390   
+11  Hg Less than value.               15.42          141.401   
+12                   NaN              40.08          101.002   
+13  Hg Less than value.               23.31           60.606   
+
+    Traditional Calories  Mercury Content  
+0                142.808           43.497  
+1                 52.921            0.076  
+2                170.287            0.393  
+3                254.916           10.539  
+4                 56.357            0.720  
+5                  0.000            0.005  
+6                  0.000            0.014  
+7                  0.000            0.014  
+8                  0.000            0.010  
+9                  0.000            0.020  
+10                 0.000            0.034  
+11                 0.000            0.004  
+12                 0.000            0.009  
+13                 0.000            0.006  "
+55,Severe,55.0,"               Item  Amount (g)  Calories  THg (ng/g)  Moderate Hg Increase   
+0   Round Whitefish         100       134      79.000                95.590  \
+1           Mallard         100       152      89.300                89.300   
+2           Caribou         100       127       3.000                 3.000   
+3       Chum Salmon         100       120      41.000                49.610   
+4      Bearded seal         100       110      30.000                36.300   
+5        Soft drink         100        40       0.041                 0.041   
+6           Bananas         100        89       0.110                 0.110   
+7           Bananas         100        89       0.110                 0.110   
+8              Milk         100        60       0.130                 0.130   
+9       Pilot bread         100       417       0.350                 0.350   
+10      Beef, steak         100       166       0.420                 0.420   
+11       Mayonnaise         100       361       0.230                 0.230   
+12        Hamburger         100       264       0.160                 0.160   
+13      Maple Syrup         100       260       0.240                 0.240   
+
+    Severe Hg Increase  Traditional Food                  Food Source   
+0              217.250                 1                   Non-Salmon  \
+1               89.300                 1                         Game   
+2                3.000                 1            Moose and Caribou   
+3              112.750                 1                       Salmon   
+4               82.500                 1                Marine Mammal   
+5                0.041                 0               Sugared Drinks   
+6                0.110                 0  Store Fruit and Fruit Juice   
+7                0.110                 0  Store Fruit and Fruit Juice   
+8                0.130                 0               Dairy and Eggs   
+9                0.350                 0                       Grains   
+10               0.420                 0             Imported Protein   
+11               0.230                 0               Vegetable Fats   
+12               0.160                 0                 Mixed Dishes   
+13               0.240                 0         Sweeteners and Candy   
+
+   Coastal/Interior                                   Calorie Citation   
+0             Local  https://fdc.nal.usda.gov/food-details/173711/n...  \
+1             Local  https://www.adfg.alaska.gov/index.cfm?adfg=hun...   
+2             Local  https://www.adfg.alaska.gov/index.cfm?adfg=hun...   
+3             Local  https://fdc.nal.usda.gov/food-details/173689/n...   
+4           Coastal  https://fdc.nal.usda.gov/food-details/167610/n...   
+5          Imported  https://fdc.nal.usda.gov/food-details/173206/n...   
+6          Imported  https://fdc.nal.usda.gov/food-details/173944/n...   
+7          Imported  https://fdc.nal.usda.gov/food-details/173944/n...   
+8          Imported  https://fdc.nal.usda.gov/food-details/746782/n...   
+9          Imported  https://fdc.nal.usda.gov/food-details/2032853/...   
+10         Imported  https://fdc.nal.usda.gov/food-details/331960/n...   
+11         Imported  https://fdc.nal.usda.gov/food-details/171443/n...   
+12         Imported  https://fdc.nal.usda.gov/food-details/170717/n...   
+13         Imported  https://fdc.nal.usda.gov/food-details/169661/n...   
+
+               Hg Citation Substituted Hg Substituted Calories   
+0           2001-2022 ADEC            NaN                  NaN  \
+1   Rothschild et al. 2005            NaN            Wild duck   
+2     Schuster et al. 2011            NaN                  NaN   
+3           2001-2022 ADEC            NaN                  NaN   
+4         Dehn et al. 2005            NaN    Generic seal meat   
+5       Dabeka et al. 2003            NaN                  NaN   
+6       Dabeka et al. 2003            NaN                  NaN   
+7       Dabeka et al. 2003            NaN                  NaN   
+8       Dabeka et al. 2003    Whole Milk                   NaN   
+9       Dabeka et al. 2003       Crackers                  NaN   
+10      Dabeka et al. 2003            NaN                  NaN   
+11      Dabeka et al. 2003            NaN                  NaN   
+12      Dabeka et al. 2003            NaN                  NaN   
+13      Dabeka et al. 2003            NaN                  NaN   
+
+                                                Notes  Scaled Amount (g)   
+0                                       Hg for fillet             106.57  \
+1                                      Hg from muscle              34.82   
+2                                Hg Less than value.              134.09   
+3                                       Hg for fillet             212.43   
+4                                     Hg from muscle.              51.24   
+5                                Hg Less than value.              808.00   
+6                                Hg Less than value.               79.44   
+7                                Hg Less than value.               79.44   
+8   Used Energy (Atwater specific factors) for cal...             269.33   
+9                                Hg Less than value.               58.13   
+10                                                NaN              85.18   
+11                     Hg Less than value from Ottawa              39.17   
+12                                                NaN              38.26   
+13                               Hg Less than value.               23.31   
+
+    Scaled Calories  Traditional Calories  Mercury Content  
+0           142.804               142.804           23.152  
+1            52.926                52.926            3.109  
+2           170.294               170.294            0.402  
+3           254.916               254.916           23.951  
+4            56.364                56.364            4.227  
+5           323.200                 0.000            0.033  
+6            70.702                 0.000            0.009  
+7            70.702                 0.000            0.009  
+8           161.598                 0.000            0.035  
+9           242.402                 0.000            0.020  
+10          141.399                 0.000            0.036  
+11          141.404                 0.000            0.009  
+12          101.006                 0.000            0.006  
+13           60.606                 0.000            0.006  "
+55,Severe,55.0,"                             Item  Amount (g)  Calories  THg (ng/g)   
+0                 Round Whitefish         100       134      79.000  \
+1                         Mallard         100       152      89.300   
+2                         Caribou         100       127       3.000   
+3                     Chum Salmon         100       120      41.000   
+4                    Bearded seal         100       110      30.000   
+5                            Tang         100       250       0.041   
+6   Apple Juice, canned sweetened         100        46       0.099   
+7                      Apple, raw         100        57       0.110   
+8                       Ice cream         100       207       0.280   
+9                     White Bread         100       267       0.460   
+10                        Sausage         100       320       0.820   
+11                         Crisco         100       917       0.250   
+12                     Hot Pocket         100       252       0.220   
+13                    white sugar         100       387       0.560   
+
+    Moderate Hg Increase  Severe Hg Increase  Traditional Food   
+0                 95.590             217.250                 1  \
+1                 89.300              89.300                 1   
+2                  3.000               3.000                 1   
+3                 49.610             112.750                 1   
+4                 36.300              82.500                 1   
+5                  0.041               0.041                 0   
+6                  0.087               0.087                 0   
+7                  0.110               0.110                 0   
+8                  0.280               0.280                 0   
+9                  0.460               0.460                 0   
+10                 0.820               0.820                 0   
+11                 0.250               0.250                 0   
+12                 0.220               0.220                 0   
+13                 0.560               0.560                 0   
+
+                    Food Source Coastal/Interior   
+0                    Non-Salmon            Local  \
+1                          Game            Local   
+2             Moose and Caribou            Local   
+3                        Salmon            Local   
+4                 Marine Mammal          Coastal   
+5                Sugared Drinks         Imported   
+6   Store Fruit and Fruit Juice         Imported   
+7   Store Fruit and Fruit Juice         Imported   
+8                Dairy and Eggs         Imported   
+9                        Grains         Imported   
+10             Imported Protein         Imported   
+11               Vegetable Fats         Imported   
+12                 Mixed Dishes         Imported   
+13         Sweeteners and Candy         Imported   
+
+                                     Calorie Citation             Hg Citation   
+0   https://fdc.nal.usda.gov/food-details/173711/n...          2001-2022 ADEC  \
+1   https://www.adfg.alaska.gov/index.cfm?adfg=hun...  Rothschild et al. 2005   
+2   https://www.adfg.alaska.gov/index.cfm?adfg=hun...    Schuster et al. 2011   
+3   https://fdc.nal.usda.gov/food-details/173689/n...          2001-2022 ADEC   
+4   https://fdc.nal.usda.gov/food-details/167610/n...        Dehn et al. 2005   
+5   https://fdc.nal.usda.gov/food-details/1636387/...      Dabeka et al. 2003   
+6   https://fdc.nal.usda.gov/food-details/167771/n...      Dabeka et al. 2003   
+7   https://fdc.nal.usda.gov/food-details/168202/n...      Dabeka et al. 2003   
+8   https://fdc.nal.usda.gov/food-details/167575/n...      Dabeka et al. 2003   
+9   https://fdc.nal.usda.gov/food-details/325871/n...      Dabeka et al. 2003   
+10  https://fdc.nal.usda.gov/food-details/174585/n...      Dabeka et al. 2003   
+11  https://fdc.nal.usda.gov/food-details/2572337/...      Dabeka et al. 2003   
+12  https://fdc.nal.usda.gov/food-details/172107/n...      Dabeka et al. 2003   
+13  https://fdc.nal.usda.gov/food-details/169655/n...      Dabeka et al. 2003   
+
+                 Substituted Hg        Substituted Calories   
+0                           NaN                         NaN  \
+1                           NaN                   Wild duck   
+2                           NaN                         NaN   
+3                           NaN                         NaN   
+4                           NaN           Generic seal meat   
+5                    Soft Drink                         NaN   
+6                           NaN                         NaN   
+7                           NaN                         NaN   
+8                           NaN                         NaN   
+9                           NaN                         NaN   
+10                      Weiners                         NaN   
+11  Cooking fats and Salad oils  Crisco, Pure Vegetable Oil   
+12                        Pizza                         NaN   
+13                          NaN                         NaN   
+
+                   Notes  Scaled Amount (g)  Scaled Calories   
+0          Hg for fillet             106.57          142.804  \
+1         Hg from muscle              34.82           52.926   
+2   Hg Less than value.              134.09          170.294   
+3          Hg for fillet             212.43          254.916   
+4        Hg from muscle.              51.24           56.364   
+5                    NaN             129.28          323.200   
+6    Hg Less than value.             153.70           70.702   
+7   Hg Less than value.              124.04           70.703   
+8                    NaN              78.07          161.605   
+9   Hg Less than value.               90.79          242.409   
+10                   NaN              44.19          141.408   
+11  Hg Less than value.               15.42          141.401   
+12                   NaN              40.08          101.002   
+13  Hg Less than value.               15.66           60.604   
+
+    Traditional Calories  Mercury Content  
+0                142.804           23.152  
+1                 52.926            3.109  
+2                170.294            0.402  
+3                254.916           23.951  
+4                 56.364            4.227  
+5                  0.000            0.005  
+6                  0.000            0.013  
+7                  0.000            0.014  
+8                  0.000            0.022  
+9                  0.000            0.042  
+10                 0.000            0.036  
+11                 0.000            0.004  
+12                 0.000            0.009  
+13                 0.000            0.009  "
+55,Severe,55.02,"            Item  Amount (g)  Calories  THg (ng/g)  Moderate Hg Increase   
+0   Bering Cisco         100        98      65.000                78.650  \
+1          Brant         100       161       2.300                 2.300   
+2        Caribou         100       127       3.000                 3.000   
+3    Chum Salmon         100       120      41.000                49.610   
+4   Bearded seal         100       110      30.000                36.300   
+5     Soft drink         100        40       0.041                 0.041   
+6        Oranges         100        97       0.120                 0.120   
+7        Oranges         100        97       0.120                 0.120   
+8         Cheese         100       376       0.510                 0.510   
+9           Cake         100       292       0.450                 0.450   
+10       Chicken         100       158       1.700                 1.700   
+11    Mayonnaise         100       361       0.230                 0.230   
+12       Burrito         100       212       0.770                 0.770   
+13   white sugar         100       387       0.560                 0.560   
+
+    Severe Hg Increase  Traditional Food                  Food Source   
+0              178.750                 1                   Non-Salmon  \
+1                2.300                 1                         Game   
+2                3.000                 1            Moose and Caribou   
+3              112.750                 1                       Salmon   
+4               82.500                 1                Marine Mammal   
+5                0.041                 0               Sugared Drinks   
+6                0.120                 0  Store Fruit and Fruit Juice   
+7                0.120                 0  Store Fruit and Fruit Juice   
+8                0.510                 0               Dairy and Eggs   
+9                0.450                 0                       Grains   
+10               1.700                 0             Imported Protein   
+11               0.230                 0               Vegetable Fats   
+12               0.770                 0                 Mixed Dishes   
+13               0.560                 0         Sweeteners and Candy   
+
+   Coastal/Interior                                   Calorie Citation   
+0             Local  https://fdc.nal.usda.gov/food-details/171953/n...  \
+1           Coastal  https://www.adfg.alaska.gov/index.cfm?adfg=hun...   
+2             Local  https://www.adfg.alaska.gov/index.cfm?adfg=hun...   
+3             Local  https://fdc.nal.usda.gov/food-details/173689/n...   
+4           Coastal  https://fdc.nal.usda.gov/food-details/167610/n...   
+5          Imported  https://fdc.nal.usda.gov/food-details/173206/n...   
+6          Imported  https://fdc.nal.usda.gov/food-details/169103/n...   
+7          Imported  https://fdc.nal.usda.gov/food-details/169103/n...   
+8          Imported  https://fdc.nal.usda.gov/food-details/168121/n...   
+9          Imported  https://fdc.nal.usda.gov/food-details/172706/n...   
+10         Imported  https://fdc.nal.usda.gov/food-details/331960/n...   
+11         Imported  https://fdc.nal.usda.gov/food-details/171443/n...   
+12         Imported  https://fdc.nal.usda.gov/food-details/1922049/...   
+13         Imported  https://fdc.nal.usda.gov/food-details/169655/n...   
+
+               Hg Citation                      Substituted Hg   
+0           2001-2022 ADEC                                 NaN  \
+1   Rothschild et al. 2005                                 NaN   
+2     Schuster et al. 2011                                 NaN   
+3           2001-2022 ADEC                                 NaN   
+4         Dehn et al. 2005                                 NaN   
+5       Dabeka et al. 2003                                 NaN   
+6       Dabeka et al. 2003                   Citrus fruit, raw   
+7       Dabeka et al. 2003                   Citrus fruit, raw   
+8       Dabeka et al. 2003            Processed cheddar cheese   
+9       Dabeka et al. 2003                                 NaN   
+10      Dabeka et al. 2003                                 NaN   
+11      Dabeka et al. 2003                                 NaN   
+12      Dabeka et al. 2003  Frozen entrees (microwave or oven)   
+13      Dabeka et al. 2003                                 NaN   
+
+   Substituted Calories                           Notes  Scaled Amount (g)   
+0         Generic cisco                   Hg for fillet             145.72  \
+1          Canada Goose                  Hg from muscle              32.87   
+2                   NaN            Hg Less than value.              134.09   
+3                   NaN                   Hg for fillet             212.43   
+4     Generic seal meat                 Hg from muscle.              51.24   
+5                   NaN            Hg Less than value.              808.00   
+6                   NaN            Hg Less than value.               72.89   
+7                   NaN            Hg Less than value.               72.89   
+8                   NaN            Hg Less than value.               42.98   
+9                   NaN            Hg Less than value.               83.01   
+10                  NaN                             NaN              89.49   
+11                  NaN  Hg Less than value from Ottawa              39.17   
+12                  NaN                             NaN              47.64   
+13                  NaN            Hg Less than value.               15.66   
+
+    Scaled Calories  Traditional Calories  Mercury Content  
+0           142.806               142.806           26.047  
+1            52.921                52.921            0.076  
+2           170.294               170.294            0.402  
+3           254.916               254.916           23.951  
+4            56.364                56.364            4.227  
+5           323.200                 0.000            0.033  
+6            70.703                 0.000            0.009  
+7            70.703                 0.000            0.009  
+8           161.605                 0.000            0.022  
+9           242.389                 0.000            0.037  
+10          141.394                 0.000            0.152  
+11          141.404                 0.000            0.009  
+12          100.997                 0.000            0.037  
+13           60.604                 0.000            0.009  "
+55,Severe,55.05,"                             Item  Amount (g)  Calories  THg (ng/g)   
+0                    Bering Cisco         100        98      65.000  \
+1                   Snowshoe Hare         100       114       6.000   
+2                           Moose         100       130       3.000   
+3                     Chum Salmon         100       120      41.000   
+4                    Bearded seal         100       110      30.000   
+5                            Tang         100       250       0.041   
+6   Apple Juice, canned sweetened         100        46       0.099   
+7                    Orange Juice         100        46       0.097   
+8                            Milk         100        60       0.130   
+9                         Cookies         100       451       0.410   
+10                  Peanut Butter         100       520       0.560   
+11                      Margarine         100       727       0.250   
+12                        Burrito         100       212       0.770   
+13                  Chocolate bar         100       531       0.540   
+
+    Moderate Hg Increase  Severe Hg Increase  Traditional Food   
+0                 78.650             178.750                 1  \
+1                  6.000               6.000                 1   
+2                  3.000               3.000                 1   
+3                 49.610             112.750                 1   
+4                 36.300              82.500                 1   
+5                  0.041               0.041                 0   
+6                  0.087               0.087                 0   
+7                  0.097               0.097                 0   
+8                  0.130               0.130                 0   
+9                  0.410               0.410                 0   
+10                 0.560               0.560                 0   
+11                 0.250               0.250                 0   
+12                 0.770               0.770                 0   
+13                 0.540               0.540                 0   
+
+                    Food Source Coastal/Interior   
+0                    Non-Salmon            Local  \
+1                          Game            Local   
+2             Moose and Caribou            Local   
+3                        Salmon            Local   
+4                 Marine Mammal          Coastal   
+5                Sugared Drinks         Imported   
+6   Store Fruit and Fruit Juice         Imported   
+7   Store Fruit and Fruit Juice         Imported   
+8                Dairy and Eggs         Imported   
+9                        Grains         Imported   
+10             Imported Protein         Imported   
+11               Vegetable Fats         Imported   
+12                 Mixed Dishes         Imported   
+13         Sweeteners and Candy         Imported   
+
+                                     Calorie Citation           Hg Citation   
+0   https://fdc.nal.usda.gov/food-details/171953/n...        2001-2022 ADEC  \
+1   https://www.adfg.alaska.gov/index.cfm?adfg=hun...  Golzadeh et al. 2020   
+2   https://www.adfg.alaska.gov/index.cfm?adfg=hun...  Golzadeh et al. 2020   
+3   https://fdc.nal.usda.gov/food-details/173689/n...        2001-2022 ADEC   
+4   https://fdc.nal.usda.gov/food-details/167610/n...      Dehn et al. 2005   
+5   https://fdc.nal.usda.gov/food-details/1636387/...    Dabeka et al. 2003   
+6   https://fdc.nal.usda.gov/food-details/167771/n...    Dabeka et al. 2003   
+7   https://fdc.nal.usda.gov/food-details/171913/n...    Dabeka et al. 2003   
+8   https://fdc.nal.usda.gov/food-details/746782/n...    Dabeka et al. 2003   
+9   https://fdc.nal.usda.gov/food-details/172715/n...    Dabeka et al. 2003   
+10  https://fdc.nal.usda.gov/food-details/172458/n...    Dabeka et al. 2003   
+11  https://fdc.nal.usda.gov/food-details/172339/n...    Dabeka et al. 2003   
+12  https://fdc.nal.usda.gov/food-details/1922049/...    Dabeka et al. 2003   
+13  https://fdc.nal.usda.gov/food-details/167984/n...    Dabeka et al. 2003   
+
+                        Substituted Hg Substituted Calories   
+0                                  NaN        Generic cisco  \
+1                     Unspecified hare                  NaN   
+2                                  NaN                  NaN   
+3                                  NaN                  NaN   
+4                                  NaN    Generic seal meat   
+5                           Soft Drink                  NaN   
+6                                  NaN                  NaN   
+7                 Citrus Juice, canned                  NaN   
+8                          Whole Milk                   NaN   
+9                                  NaN                  NaN   
+10           Peanut butter and peanuts                  NaN   
+11                                 NaN                  NaN   
+12  Frozen entrees (microwave or oven)                  NaN   
+13                                 NaN                  NaN   
+
+                                                Notes  Scaled Amount (g)   
+0                                       Hg for fillet             145.72  \
+1                                 Used Hg from muscle              46.42   
+2                                       Hg for muscle             130.99   
+3                                       Hg for fillet             212.43   
+4                                     Hg from muscle.              51.24   
+5                                                 NaN             129.28   
+6                                 Hg Less than value.             153.70   
+7                                Hg Less than value.              153.70   
+8   Used Energy (Atwater specific factors) for cal...             269.33   
+9                                                 NaN              53.75   
+10                               Hg less than value.               27.19   
+11                               Hg Less than value.               19.45   
+12                                                NaN              47.64   
+13                               Hg Less than value.               11.41   
+
+    Scaled Calories  Traditional Calories  Mercury Content  
+0           142.806               142.806           26.047  
+1            52.919                52.919            0.279  
+2           170.287               170.287            0.393  
+3           254.916               254.916           23.951  
+4            56.364                56.364            4.227  
+5           323.200                 0.000            0.005  
+6            70.702                 0.000            0.013  
+7            70.702                 0.000            0.015  
+8           161.598                 0.000            0.035  
+9           242.412                 0.000            0.022  
+10          141.388                 0.000            0.015  
+11          141.402                 0.000            0.005  
+12          100.997                 0.000            0.037  
+13           60.587                 0.000            0.006  "
+55,Severe,54.95,"                   Item  Amount (g)  Calories  THg (ng/g)   
+0          Bering Cisco         100        98      65.000  \
+1   Lesser Canada Geese         100       161       2.500   
+2               Caribou         100       127       3.000   
+3           Chum Salmon         100       120      41.000   
+4          Bearded seal         100       110      30.000   
+5                  Tang         100       250       0.041   
+6            Apple, raw         100        57       0.110   
+7               Peaches         100        39       0.046   
+8                Butter         100       717       0.430   
+9              Pancakes         100       269       0.350   
+10              Chicken         100       158       1.700   
+11               Crisco         100       917       0.250   
+12            Hamburger         100       264       0.160   
+13          Maple Syrup         100       260       0.240   
+
+    Moderate Hg Increase  Severe Hg Increase  Traditional Food   
+0                 78.650             178.750                 1  \
+1                  2.500               2.500                 1   
+2                  3.000               3.000                 1   
+3                 49.610             112.750                 1   
+4                 36.300              82.500                 1   
+5                  0.041               0.041                 0   
+6                  0.110               0.110                 0   
+7                  0.046               0.046                 0   
+8                  0.430               0.430                 0   
+9                  0.350               0.350                 0   
+10                 1.700               1.700                 0   
+11                 0.250               0.250                 0   
+12                 0.160               0.160                 0   
+13                 0.240               0.240                 0   
+
+                    Food Source Coastal/Interior   
+0                    Non-Salmon            Local  \
+1                          Game            Local   
+2             Moose and Caribou            Local   
+3                        Salmon            Local   
+4                 Marine Mammal          Coastal   
+5                Sugared Drinks         Imported   
+6   Store Fruit and Fruit Juice         Imported   
+7   Store Fruit and Fruit Juice         Imported   
+8                Dairy and Eggs         Imported   
+9                        Grains         Imported   
+10             Imported Protein         Imported   
+11               Vegetable Fats         Imported   
+12                 Mixed Dishes         Imported   
+13         Sweeteners and Candy         Imported   
+
+                                     Calorie Citation             Hg Citation   
+0   https://fdc.nal.usda.gov/food-details/171953/n...          2001-2022 ADEC  \
+1   https://www.adfg.alaska.gov/index.cfm?adfg=hun...  Rothschild et al. 2005   
+2   https://www.adfg.alaska.gov/index.cfm?adfg=hun...    Schuster et al. 2011   
+3   https://fdc.nal.usda.gov/food-details/173689/n...          2001-2022 ADEC   
+4   https://fdc.nal.usda.gov/food-details/167610/n...        Dehn et al. 2005   
+5   https://fdc.nal.usda.gov/food-details/1636387/...      Dabeka et al. 2003   
+6   https://fdc.nal.usda.gov/food-details/168202/n...      Dabeka et al. 2003   
+7   https://fdc.nal.usda.gov/food-details/169928/n...      Dabeka et al. 2003   
+8   https://fdc.nal.usda.gov/food-details/173410/n...      Dabeka et al. 2003   
+9   https://fdc.nal.usda.gov/food-details/174086/n...      Dabeka et al. 2003   
+10  https://fdc.nal.usda.gov/food-details/331960/n...      Dabeka et al. 2003   
+11  https://fdc.nal.usda.gov/food-details/2572337/...      Dabeka et al. 2003   
+12  https://fdc.nal.usda.gov/food-details/170717/n...      Dabeka et al. 2003   
+13  https://fdc.nal.usda.gov/food-details/169661/n...      Dabeka et al. 2003   
+
+                         Substituted Hg        Substituted Calories   
+0                                   NaN               Generic cisco  \
+1   canada goose (cackling) B.c. minima                Canada Goose   
+2                                   NaN                         NaN   
+3                                   NaN                         NaN   
+4                                   NaN           Generic seal meat   
+5                            Soft Drink                         NaN   
+6                                   NaN                         NaN   
+7                                   NaN                         NaN   
+8                                   NaN                         NaN   
+9                                   NaN                         NaN   
+10                                  NaN                         NaN   
+11          Cooking fats and Salad oils  Crisco, Pure Vegetable Oil   
+12                                  NaN                         NaN   
+13                                  NaN                         NaN   
+
+                   Notes  Scaled Amount (g)  Scaled Calories   
+0          Hg for fillet             145.72          142.806  \
+1         Hg from muscle              32.87           52.921   
+2   Hg Less than value.              134.09          170.294   
+3          Hg for fillet             212.43          254.916   
+4        Hg from muscle.              51.24           56.364   
+5                    NaN             129.28          323.200   
+6   Hg Less than value.              124.04           70.703   
+7   Hg Less than value.              181.28           70.699   
+8   Hg Less than value.               22.54          161.612   
+9   Hg Less than value.               90.11          242.396   
+10                   NaN              89.49          141.394   
+11  Hg Less than value.               15.42          141.401   
+12                   NaN              38.26          101.006   
+13  Hg Less than value.               23.31           60.606   
+
+    Traditional Calories  Mercury Content  
+0                142.806           26.047  
+1                 52.921            0.082  
+2                170.294            0.402  
+3                254.916           23.951  
+4                 56.364            4.227  
+5                  0.000            0.005  
+6                  0.000            0.014  
+7                  0.000            0.008  
+8                  0.000            0.010  
+9                  0.000            0.032  
+10                 0.000            0.152  
+11                 0.000            0.004  
+12                 0.000            0.006  
+13                 0.000            0.006  "
+75,Normal,75.0,"                         Item  Amount (g)  Calories  THg (ng/g)   
+0                Bering Cisco         100        98      65.000  \
+1            Northern Pintail         100       211      38.500   
+2                     Caribou         100       127       3.000   
+3              Sockeye Salmon         100       153      40.000   
+4                      Beluga         100       111    1130.000   
+5                        Tang         100       250       0.041   
+6                     Peaches         100        39       0.046   
+7                  Apple, raw         100        57       0.110   
+8                      Butter         100       717       0.430   
+9                      Cereal         100       322       0.450   
+10  Cold Cuts and Lunch Meats         100       214       0.510   
+11                 Mayonnaise         100       361       0.230   
+12                  Hamburger         100       264       0.160   
+13                Maple Syrup         100       260       0.240   
+
+    Moderate Hg Increase  Severe Hg Increase  Traditional Food   
+0                 78.650             178.750                 1  \
+1                 38.500              38.500                 1   
+2                  3.000               3.000                 1   
+3                 48.400             110.000                 1   
+4               1367.300            3107.500                 1   
+5                  0.041               0.041                 0   
+6                  0.046               0.046                 0   
+7                  0.110               0.110                 0   
+8                  0.430               0.430                 0   
+9                  0.450               0.450                 0   
+10                 0.510               0.510                 0   
+11                 0.230               0.230                 0   
+12                 0.160               0.160                 0   
+13                 0.240               0.240                 0   
+
+                    Food Source Coastal/Interior   
+0                    Non-Salmon            Local  \
+1                          Game            Local   
+2             Moose and Caribou            Local   
+3                        Salmon            Local   
+4                 Marine Mammal          Coastal   
+5                Sugared Drinks         Imported   
+6   Store Fruit and Fruit Juice         Imported   
+7   Store Fruit and Fruit Juice         Imported   
+8                Dairy and Eggs         Imported   
+9                        Grains         Imported   
+10             Imported Protein         Imported   
+11               Vegetable Fats         Imported   
+12                 Mixed Dishes         Imported   
+13         Sweeteners and Candy         Imported   
+
+                                     Calorie Citation             Hg Citation   
+0   https://fdc.nal.usda.gov/food-details/171953/n...          2001-2022 ADEC  \
+1   https://fdc.nal.usda.gov/food-details/174468/n...  Rothschild et al. 2005   
+2   https://www.adfg.alaska.gov/index.cfm?adfg=hun...    Schuster et al. 2011   
+3   https://fdc.nal.usda.gov/food-details/168045/n...          2001-2022 ADEC   
+4   https://fdc.nal.usda.gov/food-details/169797/n...        Dehn et al. 2006   
+5   https://fdc.nal.usda.gov/food-details/1636387/...      Dabeka et al. 2003   
+6   https://fdc.nal.usda.gov/food-details/169928/n...      Dabeka et al. 2003   
+7   https://fdc.nal.usda.gov/food-details/168202/n...      Dabeka et al. 2003   
+8   https://fdc.nal.usda.gov/food-details/173410/n...      Dabeka et al. 2003   
+9   https://fdc.nal.usda.gov/food-details/1886230/...      Dabeka et al. 2003   
+10  https://fdc.nal.usda.gov/food-details/170315/n...      Dabeka et al. 2003   
+11  https://fdc.nal.usda.gov/food-details/171443/n...      Dabeka et al. 2003   
+12  https://fdc.nal.usda.gov/food-details/170717/n...      Dabeka et al. 2003   
+13  https://fdc.nal.usda.gov/food-details/169661/n...      Dabeka et al. 2003   
+
+           Substituted Hg Substituted Calories   
+0                     NaN        Generic cisco  \
+1                     NaN            Wild duck   
+2                     NaN                  NaN   
+3                     NaN                  NaN   
+4                     NaN                  NaN   
+5              Soft Drink                  NaN   
+6                     NaN                  NaN   
+7                     NaN                  NaN   
+8                     NaN                  NaN   
+9   Wheat and Bran Cereal                  NaN   
+10                    NaN                  NaN   
+11                    NaN                  NaN   
+12                    NaN                  NaN   
+13                    NaN                  NaN   
+
+                             Notes  Scaled Amount (g)  Scaled Calories   
+0                    Hg for fillet             145.72          142.806  \
+1                   Hg from muscle              25.08           52.919   
+2             Hg Less than value.              134.09          170.294   
+3                    Hg for fillet             166.61          254.913   
+4                   Hg from muscle              50.77           56.355   
+5                              NaN             129.28          323.200   
+6             Hg Less than value.              181.28           70.699   
+7             Hg Less than value.              124.04           70.703   
+8             Hg Less than value.               22.54          161.612   
+9             Hg Less than value.               75.28          242.402   
+10                             NaN              66.07          141.390   
+11  Hg Less than value from Ottawa              39.17          141.404   
+12                             NaN              38.26          101.006   
+13            Hg Less than value.               23.31           60.606   
+
+    Traditional Calories  Mercury Content  
+0                142.806            9.472  
+1                 52.919            0.966  
+2                170.294            0.402  
+3                254.913            6.664  
+4                 56.355           57.370  
+5                  0.000            0.005  
+6                  0.000            0.008  
+7                  0.000            0.014  
+8                  0.000            0.010  
+9                  0.000            0.034  
+10                 0.000            0.034  
+11                 0.000            0.009  
+12                 0.000            0.006  
+13                 0.000            0.006  "
+75,Normal,75.01,"             Item  Amount (g)  Calories  THg (ng/g)  Moderate Hg Increase   
+0     Saffron Cod         100        84      23.000                27.830  \
+1   Snowshoe Hare         100       114       6.000                 6.000   
+2         Caribou         100       127       3.000                 3.000   
+3     Pink Salmon         100       127      64.000                77.440   
+4          Beluga         100       111    1130.000              1367.300   
+5      Soft drink         100        40       0.041                 0.041   
+6    Orange Juice         100        46       0.097                 0.097   
+7      Apple, raw         100        57       0.110                 0.110   
+8            Eggs         100       147       0.390                 0.390   
+9            Cake         100       292       0.450                 0.450   
+10  Peanut Butter         100       520       0.560                 0.560   
+11         Crisco         100       917       0.250                 0.250   
+12        Burrito         100       212       0.770                 0.770   
+13  Chocolate bar         100       531       0.540                 0.540   
+
+    Severe Hg Increase  Traditional Food                  Food Source   
+0               63.250                 1                   Non-Salmon  \
+1                6.000                 1                         Game   
+2                3.000                 1            Moose and Caribou   
+3              176.000                 1                       Salmon   
+4             3107.500                 1                Marine Mammal   
+5                0.041                 0               Sugared Drinks   
+6                0.097                 0  Store Fruit and Fruit Juice   
+7                0.110                 0  Store Fruit and Fruit Juice   
+8                0.390                 0               Dairy and Eggs   
+9                0.450                 0                       Grains   
+10               0.560                 0             Imported Protein   
+11               0.250                 0               Vegetable Fats   
+12               0.770                 0                 Mixed Dishes   
+13               0.540                 0         Sweeteners and Candy   
+
+   Coastal/Interior                                   Calorie Citation   
+0           Coastal  https://fdc.nal.usda.gov/food-details/175178/n...  \
+1             Local  https://www.adfg.alaska.gov/index.cfm?adfg=hun...   
+2             Local  https://www.adfg.alaska.gov/index.cfm?adfg=hun...   
+3             Local  https://fdc.nal.usda.gov/food-details/175138/n...   
+4           Coastal  https://fdc.nal.usda.gov/food-details/169797/n...   
+5          Imported  https://fdc.nal.usda.gov/food-details/173206/n...   
+6          Imported  https://fdc.nal.usda.gov/food-details/171913/n...   
+7          Imported  https://fdc.nal.usda.gov/food-details/168202/n...   
+8          Imported  https://fdc.nal.usda.gov/food-details/748967/n...   
+9          Imported  https://fdc.nal.usda.gov/food-details/172706/n...   
+10         Imported  https://fdc.nal.usda.gov/food-details/172458/n...   
+11         Imported  https://fdc.nal.usda.gov/food-details/2572337/...   
+12         Imported  https://fdc.nal.usda.gov/food-details/1922049/...   
+13         Imported  https://fdc.nal.usda.gov/food-details/167984/n...   
+
+             Hg Citation                      Substituted Hg   
+0         2001-2022 ADEC                                 NaN  \
+1   Golzadeh et al. 2020                    Unspecified hare   
+2   Schuster et al. 2011                                 NaN   
+3         2001-2012 ADEC                                 NaN   
+4       Dehn et al. 2006                                 NaN   
+5     Dabeka et al. 2003                                 NaN   
+6     Dabeka et al. 2003                Citrus Juice, canned   
+7     Dabeka et al. 2003                                 NaN   
+8     Dabeka et al. 2003                                 NaN   
+9     Dabeka et al. 2003                                 NaN   
+10    Dabeka et al. 2003           Peanut butter and peanuts   
+11    Dabeka et al. 2003         Cooking fats and Salad oils   
+12    Dabeka et al. 2003  Frozen entrees (microwave or oven)   
+13    Dabeka et al. 2003                                 NaN   
+
+          Substituted Calories   
+0                  Pacific Cod  \
+1                          NaN   
+2                          NaN   
+3                          NaN   
+4                          NaN   
+5                          NaN   
+6                          NaN   
+7                          NaN   
+8                          NaN   
+9                          NaN   
+10                         NaN   
+11  Crisco, Pure Vegetable Oil   
+12                         NaN   
+13                         NaN   
+
+                                                Notes  Scaled Amount (g)   
+0                                   Hg for whole body             170.01  \
+1                                 Used Hg from muscle              46.42   
+2                                Hg Less than value.              134.09   
+3                          Hg  Maximum value (fillet)             200.72   
+4                                      Hg from muscle              50.77   
+5                                Hg Less than value.              808.00   
+6                                Hg Less than value.              153.70   
+7                                Hg Less than value.              124.04   
+8   Used Energy (Atwater specific factors) for cal...             109.93   
+9                                Hg Less than value.               83.01   
+10                               Hg less than value.               27.19   
+11                               Hg Less than value.               15.42   
+12                                                NaN              47.64   
+13                               Hg Less than value.               11.41   
+
+    Scaled Calories  Traditional Calories  Mercury Content  
+0           142.808               142.808            3.910  
+1            52.919                52.919            0.279  
+2           170.294               170.294            0.402  
+3           254.914               254.914           12.846  
+4            56.355                56.355           57.370  
+5           323.200                 0.000            0.033  
+6            70.702                 0.000            0.015  
+7            70.703                 0.000            0.014  
+8           161.597                 0.000            0.043  
+9           242.389                 0.000            0.037  
+10          141.388                 0.000            0.015  
+11          141.401                 0.000            0.004  
+12          100.997                 0.000            0.037  
+13           60.587                 0.000            0.006  "
+75,Normal,75.01,"             Item  Amount (g)  Calories  THg (ng/g)  Moderate Hg Increase   
+0       Blackfish         100        82      22.000                26.620  \
+1   Snowshoe Hare         100       114       6.000                 6.000   
+2           Moose         100       130       3.000                 3.000   
+3     Pink Salmon         100       127      64.000                77.440   
+4          Beluga         100       111    1130.000              1367.300   
+5            Tang         100       250       0.041                 0.041   
+6         Peaches         100        39       0.046                 0.046   
+7      Apple, raw         100        57       0.110                 0.110   
+8       Ice cream         100       207       0.280                 0.280   
+9            Cake         100       292       0.450                 0.450   
+10        Chicken         100       158       1.700                 1.700   
+11     Mayonnaise         100       361       0.230                 0.230   
+12           Soup         100        41       0.150                 0.150   
+13    Maple Syrup         100       260       0.240                 0.240   
+
+    Severe Hg Increase  Traditional Food                  Food Source   
+0               60.500                 1                   Non-Salmon  \
+1                6.000                 1                         Game   
+2                3.000                 1            Moose and Caribou   
+3              176.000                 1                       Salmon   
+4             3107.500                 1                Marine Mammal   
+5                0.041                 0               Sugared Drinks   
+6                0.046                 0  Store Fruit and Fruit Juice   
+7                0.110                 0  Store Fruit and Fruit Juice   
+8                0.280                 0               Dairy and Eggs   
+9                0.450                 0                       Grains   
+10               1.700                 0             Imported Protein   
+11               0.230                 0               Vegetable Fats   
+12               0.150                 0                 Mixed Dishes   
+13               0.240                 0         Sweeteners and Candy   
+
+   Coastal/Interior                                   Calorie Citation   
+0           Coastal  https://fdc.nal.usda.gov/food-details/169798/n...  \
+1             Local  https://www.adfg.alaska.gov/index.cfm?adfg=hun...   
+2             Local  https://www.adfg.alaska.gov/index.cfm?adfg=hun...   
+3             Local  https://fdc.nal.usda.gov/food-details/175138/n...   
+4           Coastal  https://fdc.nal.usda.gov/food-details/169797/n...   
+5          Imported  https://fdc.nal.usda.gov/food-details/1636387/...   
+6          Imported  https://fdc.nal.usda.gov/food-details/169928/n...   
+7          Imported  https://fdc.nal.usda.gov/food-details/168202/n...   
+8          Imported  https://fdc.nal.usda.gov/food-details/167575/n...   
+9          Imported  https://fdc.nal.usda.gov/food-details/172706/n...   
+10         Imported  https://fdc.nal.usda.gov/food-details/331960/n...   
+11         Imported  https://fdc.nal.usda.gov/food-details/171443/n...   
+12         Imported  https://fdc.nal.usda.gov/food-details/174545/n...   
+13         Imported  https://fdc.nal.usda.gov/food-details/169661/n...   
+
+             Hg Citation      Substituted Hg  Substituted Calories   
+0         2001-2022 ADEC    Alaska Blackfish                   NaN  \
+1   Golzadeh et al. 2020    Unspecified hare                   NaN   
+2   Golzadeh et al. 2020                 NaN                   NaN   
+3         2001-2012 ADEC                 NaN                   NaN   
+4       Dehn et al. 2006                 NaN                   NaN   
+5     Dabeka et al. 2003          Soft Drink                   NaN   
+6     Dabeka et al. 2003                 NaN                   NaN   
+7     Dabeka et al. 2003                 NaN                   NaN   
+8     Dabeka et al. 2003                 NaN                   NaN   
+9     Dabeka et al. 2003                 NaN                   NaN   
+10    Dabeka et al. 2003                 NaN                   NaN   
+11    Dabeka et al. 2003                 NaN                   NaN   
+12    Dabeka et al. 2003  Soup, meat, canned                   NaN   
+13    Dabeka et al. 2003                 NaN                   NaN   
+
+                             Notes  Scaled Amount (g)  Scaled Calories   
+0                Hg for whole body             174.16          142.811  \
+1              Used Hg from muscle              46.42           52.919   
+2                    Hg for muscle             130.99          170.287   
+3       Hg  Maximum value (fillet)             200.72          254.914   
+4                   Hg from muscle              50.77           56.355   
+5                              NaN             129.28          323.200   
+6             Hg Less than value.              181.28           70.699   
+7             Hg Less than value.              124.04           70.703   
+8                              NaN              78.07          161.605   
+9             Hg Less than value.               83.01          242.389   
+10                             NaN              89.49          141.394   
+11  Hg Less than value from Ottawa              39.17          141.404   
+12                             NaN             246.34          100.999   
+13            Hg Less than value.               23.31           60.606   
+
+    Traditional Calories  Mercury Content  
+0                142.811            3.832  
+1                 52.919            0.279  
+2                170.287            0.393  
+3                254.914           12.846  
+4                 56.355           57.370  
+5                  0.000            0.005  
+6                  0.000            0.008  
+7                  0.000            0.014  
+8                  0.000            0.022  
+9                  0.000            0.037  
+10                 0.000            0.152  
+11                 0.000            0.009  
+12                 0.000            0.037  
+13                 0.000            0.006  "
+75,Normal,75.01,"             Item  Amount (g)  Calories  THg (ng/g)  Moderate Hg Increase   
+0       Blackfish         100        82      22.000                26.620  \
+1      Black Bear         100       163       8.000                 8.000   
+2           Moose         100       130       3.000                 3.000   
+3     Pink Salmon         100       127      64.000                77.440   
+4          Beluga         100       111    1130.000              1367.300   
+5            Tang         100       250       0.041                 0.041   
+6      Apple, raw         100        57       0.110                 0.110   
+7      Apple, raw         100        57       0.110                 0.110   
+8            Eggs         100       147       0.390                 0.390   
+9      Dark Bread         100       259       0.370                 0.370   
+10        Chicken         100       158       1.700                 1.700   
+11      Margarine         100       727       0.250                 0.250   
+12        Burrito         100       212       0.770                 0.770   
+13  Chocolate bar         100       531       0.540                 0.540   
+
+    Severe Hg Increase  Traditional Food                  Food Source   
+0               60.500                 1                   Non-Salmon  \
+1                8.000                 1                         Game   
+2                3.000                 1            Moose and Caribou   
+3              176.000                 1                       Salmon   
+4             3107.500                 1                Marine Mammal   
+5                0.041                 0               Sugared Drinks   
+6                0.110                 0  Store Fruit and Fruit Juice   
+7                0.110                 0  Store Fruit and Fruit Juice   
+8                0.390                 0               Dairy and Eggs   
+9                0.370                 0                       Grains   
+10               1.700                 0             Imported Protein   
+11               0.250                 0               Vegetable Fats   
+12               0.770                 0                 Mixed Dishes   
+13               0.540                 0         Sweeteners and Candy   
+
+   Coastal/Interior                                   Calorie Citation   
+0           Coastal  https://fdc.nal.usda.gov/food-details/169798/n...  \
+1             Local  https://www.adfg.alaska.gov/index.cfm?adfg=hun...   
+2             Local  https://www.adfg.alaska.gov/index.cfm?adfg=hun...   
+3             Local  https://fdc.nal.usda.gov/food-details/175138/n...   
+4           Coastal  https://fdc.nal.usda.gov/food-details/169797/n...   
+5          Imported  https://fdc.nal.usda.gov/food-details/1636387/...   
+6          Imported  https://fdc.nal.usda.gov/food-details/168202/n...   
+7          Imported  https://fdc.nal.usda.gov/food-details/168202/n...   
+8          Imported  https://fdc.nal.usda.gov/food-details/748967/n...   
+9          Imported  https://fdc.nal.usda.gov/food-details/172684/n...   
+10         Imported  https://fdc.nal.usda.gov/food-details/331960/n...   
+11         Imported  https://fdc.nal.usda.gov/food-details/172339/n...   
+12         Imported  https://fdc.nal.usda.gov/food-details/1922049/...   
+13         Imported  https://fdc.nal.usda.gov/food-details/167984/n...   
+
+             Hg Citation                      Substituted Hg   
+0         2001-2022 ADEC                    Alaska Blackfish  \
+1   Golzadeh et al. 2020    Bear muscle (unspecifed species)   
+2   Golzadeh et al. 2020                                 NaN   
+3         2001-2012 ADEC                                 NaN   
+4       Dehn et al. 2006                                 NaN   
+5     Dabeka et al. 2003                          Soft Drink   
+6     Dabeka et al. 2003                                 NaN   
+7     Dabeka et al. 2003                                 NaN   
+8     Dabeka et al. 2003                                 NaN   
+9     Dabeka et al. 2003                           Rye Bread   
+10    Dabeka et al. 2003                                 NaN   
+11    Dabeka et al. 2003                                 NaN   
+12    Dabeka et al. 2003  Frozen entrees (microwave or oven)   
+13    Dabeka et al. 2003                                 NaN   
+
+    Substituted Calories                                              Notes   
+0                    NaN                                  Hg for whole body  \
+1                    NaN                                     Hg from muscle   
+2                    NaN                                      Hg for muscle   
+3                    NaN                         Hg  Maximum value (fillet)   
+4                    NaN                                     Hg from muscle   
+5                    NaN                                                NaN   
+6                    NaN                               Hg Less than value.    
+7                    NaN                               Hg Less than value.    
+8                    NaN  Used Energy (Atwater specific factors) for cal...   
+9                    NaN                                                NaN   
+10                   NaN                                                NaN   
+11                   NaN                               Hg Less than value.    
+12                   NaN                                                NaN   
+13                   NaN                               Hg Less than value.    
+
+    Scaled Amount (g)  Scaled Calories  Traditional Calories  Mercury Content  
+0              174.16          142.811               142.811            3.832  
+1               32.47           52.926                52.926            0.260  
+2              130.99          170.287               170.287            0.393  
+3              200.72          254.914               254.914           12.846  
+4               50.77           56.355                56.355           57.370  
+5              129.28          323.200                 0.000            0.005  
+6              124.04           70.703                 0.000            0.014  
+7              124.04           70.703                 0.000            0.014  
+8              109.93          161.597                 0.000            0.043  
+9               93.59          242.398                 0.000            0.035  
+10              89.49          141.394                 0.000            0.152  
+11              19.45          141.402                 0.000            0.005  
+12              47.64          100.997                 0.000            0.037  
+13              11.41           60.587                 0.000            0.006  "
+75,Normal,75.01,"                             Item  Amount (g)  Calories  THg (ng/g)   
+0                     Saffron Cod         100        84      23.000  \
+1                   Snowshoe Hare         100       114       6.000   
+2                           Moose         100       130       3.000   
+3                     Pink Salmon         100       127      64.000   
+4                          Beluga         100       111    1130.000   
+5                      Soft drink         100        40       0.041   
+6   Apple Juice, canned sweetened         100        46       0.099   
+7                      Apple, raw         100        57       0.110   
+8                            Milk         100        60       0.130   
+9                        Pancakes         100       269       0.350   
+10                    Beef, steak         100       166       0.420   
+11                      Margarine         100       727       0.250   
+12                           Soup         100        41       0.150   
+13                           Jams         100       250       0.240   
+
+    Moderate Hg Increase  Severe Hg Increase  Traditional Food   
+0                 27.830              63.250                 1  \
+1                  6.000               6.000                 1   
+2                  3.000               3.000                 1   
+3                 77.440             176.000                 1   
+4               1367.300            3107.500                 1   
+5                  0.041               0.041                 0   
+6                  0.087               0.087                 0   
+7                  0.110               0.110                 0   
+8                  0.130               0.130                 0   
+9                  0.350               0.350                 0   
+10                 0.420               0.420                 0   
+11                 0.250               0.250                 0   
+12                 0.150               0.150                 0   
+13                 0.240               0.240                 0   
+
+                    Food Source Coastal/Interior   
+0                    Non-Salmon          Coastal  \
+1                          Game            Local   
+2             Moose and Caribou            Local   
+3                        Salmon            Local   
+4                 Marine Mammal          Coastal   
+5                Sugared Drinks         Imported   
+6   Store Fruit and Fruit Juice         Imported   
+7   Store Fruit and Fruit Juice         Imported   
+8                Dairy and Eggs         Imported   
+9                        Grains         Imported   
+10             Imported Protein         Imported   
+11               Vegetable Fats         Imported   
+12                 Mixed Dishes         Imported   
+13         Sweeteners and Candy         Imported   
+
+                                     Calorie Citation           Hg Citation   
+0   https://fdc.nal.usda.gov/food-details/175178/n...        2001-2022 ADEC  \
+1   https://www.adfg.alaska.gov/index.cfm?adfg=hun...  Golzadeh et al. 2020   
+2   https://www.adfg.alaska.gov/index.cfm?adfg=hun...  Golzadeh et al. 2020   
+3   https://fdc.nal.usda.gov/food-details/175138/n...        2001-2012 ADEC   
+4   https://fdc.nal.usda.gov/food-details/169797/n...      Dehn et al. 2006   
+5   https://fdc.nal.usda.gov/food-details/173206/n...    Dabeka et al. 2003   
+6   https://fdc.nal.usda.gov/food-details/167771/n...    Dabeka et al. 2003   
+7   https://fdc.nal.usda.gov/food-details/168202/n...    Dabeka et al. 2003   
+8   https://fdc.nal.usda.gov/food-details/746782/n...    Dabeka et al. 2003   
+9   https://fdc.nal.usda.gov/food-details/174086/n...    Dabeka et al. 2003   
+10  https://fdc.nal.usda.gov/food-details/331960/n...    Dabeka et al. 2003   
+11  https://fdc.nal.usda.gov/food-details/172339/n...    Dabeka et al. 2003   
+12  https://fdc.nal.usda.gov/food-details/174545/n...    Dabeka et al. 2003   
+13  https://fdc.nal.usda.gov/food-details/1628000/...    Dabeka et al. 2003   
+
+        Substituted Hg Substituted Calories   
+0                  NaN          Pacific Cod  \
+1     Unspecified hare                  NaN   
+2                  NaN                  NaN   
+3                  NaN                  NaN   
+4                  NaN                  NaN   
+5                  NaN                  NaN   
+6                  NaN                  NaN   
+7                  NaN                  NaN   
+8          Whole Milk                   NaN   
+9                  NaN                  NaN   
+10                 NaN                  NaN   
+11                 NaN                  NaN   
+12  Soup, meat, canned                  NaN   
+13                 NaN                  NaN   
+
+                                                Notes  Scaled Amount (g)   
+0                                   Hg for whole body             170.01  \
+1                                 Used Hg from muscle              46.42   
+2                                       Hg for muscle             130.99   
+3                          Hg  Maximum value (fillet)             200.72   
+4                                      Hg from muscle              50.77   
+5                                Hg Less than value.              808.00   
+6                                 Hg Less than value.             153.70   
+7                                Hg Less than value.              124.04   
+8   Used Energy (Atwater specific factors) for cal...             269.33   
+9                                Hg Less than value.               90.11   
+10                                                NaN              85.18   
+11                               Hg Less than value.               19.45   
+12                                                NaN             246.34   
+13                               Hg Less than value.               24.24   
+
+    Scaled Calories  Traditional Calories  Mercury Content  
+0           142.808               142.808            3.910  
+1            52.919                52.919            0.279  
+2           170.287               170.287            0.393  
+3           254.914               254.914           12.846  
+4            56.355                56.355           57.370  
+5           323.200                 0.000            0.033  
+6            70.702                 0.000            0.015  
+7            70.703                 0.000            0.014  
+8           161.598                 0.000            0.035  
+9           242.396                 0.000            0.032  
+10          141.399                 0.000            0.036  
+11          141.402                 0.000            0.005  
+12          100.999                 0.000            0.037  
+13           60.600                 0.000            0.006  "
+75,Moderate,75.08,"                             Item  Amount (g)  Calories  THg (ng/g)   
+0                          Burbot         100        90     275.000  \
+1                         Mallard         100       152      89.300   
+2                           Moose         100       130       3.000   
+3                     Chum Salmon         100       120      41.000   
+4                    Spotted Seal         100       110     130.000   
+5                      Soft drink         100        40       0.041   
+6   Apple Juice, canned sweetened         100        46       0.099   
+7                     Apple Sauce         100        50       0.099   
+8                            Milk         100        60       0.130   
+9                         Cookies         100       451       0.410   
+10                   Canned Meats         100       334       0.360   
+11                      Margarine         100       727       0.250   
+12                           Soup         100        41       0.150   
+13                    Maple Syrup         100       260       0.240   
+
+    Moderate Hg Increase  Severe Hg Increase  Traditional Food   
+0                332.750             756.250                 1  \
+1                 89.300              89.300                 1   
+2                  3.000               3.000                 1   
+3                 49.610             112.750                 1   
+4                157.300             357.500                 1   
+5                  0.041               0.041                 0   
+6                  0.087               0.087                 0   
+7                  0.099               0.099                 0   
+8                  0.130               0.130                 0   
+9                  0.410               0.410                 0   
+10                 0.360               0.360                 0   
+11                 0.250               0.250                 0   
+12                 0.150               0.150                 0   
+13                 0.240               0.240                 0   
+
+                    Food Source Coastal/Interior   
+0                    Non-Salmon            Local  \
+1                          Game            Local   
+2             Moose and Caribou            Local   
+3                        Salmon            Local   
+4                 Marine Mammal          Coastal   
+5                Sugared Drinks         Imported   
+6   Store Fruit and Fruit Juice         Imported   
+7   Store Fruit and Fruit Juice         Imported   
+8                Dairy and Eggs         Imported   
+9                        Grains         Imported   
+10             Imported Protein         Imported   
+11               Vegetable Fats         Imported   
+12                 Mixed Dishes         Imported   
+13         Sweeteners and Candy         Imported   
+
+                                     Calorie Citation             Hg Citation   
+0   https://fdc.nal.usda.gov/food-details/171950/n...          2001-2022 ADEC  \
+1   https://www.adfg.alaska.gov/index.cfm?adfg=hun...  Rothschild et al. 2005   
+2   https://www.adfg.alaska.gov/index.cfm?adfg=hun...    Golzadeh et al. 2020   
+3   https://fdc.nal.usda.gov/food-details/173689/n...          2001-2022 ADEC   
+4   https://fdc.nal.usda.gov/food-details/167610/n...        Dehn et al. 2005   
+5   https://fdc.nal.usda.gov/food-details/173206/n...      Dabeka et al. 2003   
+6   https://fdc.nal.usda.gov/food-details/167771/n...      Dabeka et al. 2003   
+7   https://fdc.nal.usda.gov/food-details/2104794/...      Dabeka et al. 2003   
+8   https://fdc.nal.usda.gov/food-details/746782/n...      Dabeka et al. 2003   
+9   https://fdc.nal.usda.gov/food-details/172715/n...      Dabeka et al. 2003   
+10  https://fdc.nal.usda.gov/food-details/174571/n...      Dabeka et al. 2003   
+11  https://fdc.nal.usda.gov/food-details/172339/n...      Dabeka et al. 2003   
+12  https://fdc.nal.usda.gov/food-details/174545/n...      Dabeka et al. 2003   
+13  https://fdc.nal.usda.gov/food-details/169661/n...      Dabeka et al. 2003   
+
+        Substituted Hg Substituted Calories   
+0                  NaN                  NaN  \
+1                  NaN            Wild duck   
+2                  NaN                  NaN   
+3                  NaN                  NaN   
+4                  NaN    generic seal meat   
+5                  NaN                  NaN   
+6                  NaN                  NaN   
+7                  NaN                  NaN   
+8          Whole Milk                   NaN   
+9                  NaN                  NaN   
+10                 NaN                  NaN   
+11                 NaN                  NaN   
+12  Soup, meat, canned                  NaN   
+13                 NaN                  NaN   
+
+                                                Notes  Scaled Amount (g)   
+0                                       Hg for fillet             158.68  \
+1                                      Hg from muscle              34.82   
+2                                       Hg for muscle             130.99   
+3                                       Hg for fillet             212.43   
+4                                                 NaN              51.24   
+5                                Hg Less than value.              808.00   
+6                                 Hg Less than value.             153.70   
+7                                Hg Less than value.              141.40   
+8   Used Energy (Atwater specific factors) for cal...             269.33   
+9                                                 NaN              53.75   
+10                                                NaN              42.34   
+11                               Hg Less than value.               19.45   
+12                                                NaN             246.34   
+13                               Hg Less than value.               23.31   
+
+    Scaled Calories  Traditional Calories  Mercury Content  
+0           142.812               142.812           52.801  
+1            52.926                52.926            3.109  
+2           170.287               170.287            0.393  
+3           254.916               254.916           10.539  
+4            56.364                56.364            8.060  
+5           323.200                 0.000            0.033  
+6            70.702                 0.000            0.013  
+7            70.700                 0.000            0.014  
+8           161.598                 0.000            0.035  
+9           242.412                 0.000            0.022  
+10          141.416                 0.000            0.015  
+11          141.402                 0.000            0.005  
+12          100.999                 0.000            0.037  
+13           60.606                 0.000            0.006  "
+75,Moderate,75.11,"            Item  Amount (g)  Calories  THg (ng/g)  Moderate Hg Increase   
+0         Burbot         100        90     275.000               332.750  \
+1        Mallard         100       152      89.300                89.300   
+2        Caribou         100       127       3.000                 3.000   
+3    Chum Salmon         100       120      41.000                49.610   
+4   Spotted Seal         100       110     130.000               157.300   
+5           Tang         100       250       0.041                 0.041   
+6   Orange Juice         100        46       0.097                 0.097   
+7    Apple Sauce         100        50       0.099                 0.099   
+8           Eggs         100       147       0.390                 0.390   
+9    Pilot bread         100       417       0.350                 0.350   
+10   Pork, fresh         100       263       1.100                 1.100   
+11        Crisco         100       917       0.250                 0.250   
+12          Soup         100        41       0.150                 0.150   
+13          Jams         100       250       0.240                 0.240   
+
+    Severe Hg Increase  Traditional Food                  Food Source   
+0              756.250                 1                   Non-Salmon  \
+1               89.300                 1                         Game   
+2                3.000                 1            Moose and Caribou   
+3              112.750                 1                       Salmon   
+4              357.500                 1                Marine Mammal   
+5                0.041                 0               Sugared Drinks   
+6                0.097                 0  Store Fruit and Fruit Juice   
+7                0.099                 0  Store Fruit and Fruit Juice   
+8                0.390                 0               Dairy and Eggs   
+9                0.350                 0                       Grains   
+10               1.100                 0             Imported Protein   
+11               0.250                 0               Vegetable Fats   
+12               0.150                 0                 Mixed Dishes   
+13               0.240                 0         Sweeteners and Candy   
+
+   Coastal/Interior                                   Calorie Citation   
+0             Local  https://fdc.nal.usda.gov/food-details/171950/n...  \
+1             Local  https://www.adfg.alaska.gov/index.cfm?adfg=hun...   
+2             Local  https://www.adfg.alaska.gov/index.cfm?adfg=hun...   
+3             Local  https://fdc.nal.usda.gov/food-details/173689/n...   
+4           Coastal  https://fdc.nal.usda.gov/food-details/167610/n...   
+5          Imported  https://fdc.nal.usda.gov/food-details/1636387/...   
+6          Imported  https://fdc.nal.usda.gov/food-details/171913/n...   
+7          Imported  https://fdc.nal.usda.gov/food-details/2104794/...   
+8          Imported  https://fdc.nal.usda.gov/food-details/748967/n...   
+9          Imported  https://fdc.nal.usda.gov/food-details/2032853/...   
+10         Imported  https://fdc.nal.usda.gov/food-details/167902/n...   
+11         Imported  https://fdc.nal.usda.gov/food-details/2572337/...   
+12         Imported  https://fdc.nal.usda.gov/food-details/174545/n...   
+13         Imported  https://fdc.nal.usda.gov/food-details/1628000/...   
+
+               Hg Citation               Substituted Hg   
+0           2001-2022 ADEC                          NaN  \
+1   Rothschild et al. 2005                          NaN   
+2     Schuster et al. 2011                          NaN   
+3           2001-2022 ADEC                          NaN   
+4         Dehn et al. 2005                          NaN   
+5       Dabeka et al. 2003                   Soft Drink   
+6       Dabeka et al. 2003         Citrus Juice, canned   
+7       Dabeka et al. 2003                          NaN   
+8       Dabeka et al. 2003                          NaN   
+9       Dabeka et al. 2003                     Crackers   
+10      Dabeka et al. 2003                          NaN   
+11      Dabeka et al. 2003  Cooking fats and Salad oils   
+12      Dabeka et al. 2003           Soup, meat, canned   
+13      Dabeka et al. 2003                          NaN   
+
+          Substituted Calories   
+0                          NaN  \
+1                    Wild duck   
+2                          NaN   
+3                          NaN   
+4            generic seal meat   
+5                          NaN   
+6                          NaN   
+7                          NaN   
+8                          NaN   
+9                          NaN   
+10                         NaN   
+11  Crisco, Pure Vegetable Oil   
+12                         NaN   
+13                         NaN   
+
+                                                Notes  Scaled Amount (g)   
+0                                       Hg for fillet             158.68  \
+1                                      Hg from muscle              34.82   
+2                                Hg Less than value.              134.09   
+3                                       Hg for fillet             212.43   
+4                                                 NaN              51.24   
+5                                                 NaN             129.28   
+6                                Hg Less than value.              153.70   
+7                                Hg Less than value.              141.40   
+8   Used Energy (Atwater specific factors) for cal...             109.93   
+9                                Hg Less than value.               58.13   
+10                                                NaN              53.76   
+11                               Hg Less than value.               15.42   
+12                                                NaN             246.34   
+13                               Hg Less than value.               24.24   
+
+    Scaled Calories  Traditional Calories  Mercury Content  
+0           142.812               142.812           52.801  
+1            52.926                52.926            3.109  
+2           170.294               170.294            0.402  
+3           254.916               254.916           10.539  
+4            56.364                56.364            8.060  
+5           323.200                 0.000            0.005  
+6            70.702                 0.000            0.015  
+7            70.700                 0.000            0.014  
+8           161.597                 0.000            0.043  
+9           242.402                 0.000            0.020  
+10          141.389                 0.000            0.059  
+11          141.401                 0.000            0.004  
+12          100.999                 0.000            0.037  
+13           60.600                 0.000            0.006  "
+75,Moderate,74.67,"                Item  Amount (g)  Calories  THg (ng/g)  Moderate Hg Increase   
+0             Burbot         100        90     275.000               332.750  \
+1   Northern Pintail         100       211      38.500                38.500   
+2              Moose         100       130       3.000                 3.000   
+3        Pink Salmon         100       127      64.000                77.440   
+4       Ringed seal          100       142     100.000               121.000   
+5               Tang         100       250       0.041                 0.041   
+6            Peaches         100        39       0.046                 0.046   
+7            Peaches         100        39       0.046                 0.046   
+8             Cheese         100       376       0.510                 0.510   
+9         Dark Bread         100       259       0.370                 0.370   
+10       Beef, steak         100       166       0.420                 0.420   
+11         Margarine         100       727       0.250                 0.250   
+12           Burrito         100       212       0.770                 0.770   
+13              Jams         100       250       0.240                 0.240   
+
+    Severe Hg Increase  Traditional Food                  Food Source   
+0              756.250                 1                   Non-Salmon  \
+1               38.500                 1                         Game   
+2                3.000                 1            Moose and Caribou   
+3              176.000                 1                       Salmon   
+4              275.000                 1                Marine Mammal   
+5                0.041                 0               Sugared Drinks   
+6                0.046                 0  Store Fruit and Fruit Juice   
+7                0.046                 0  Store Fruit and Fruit Juice   
+8                0.510                 0               Dairy and Eggs   
+9                0.370                 0                       Grains   
+10               0.420                 0             Imported Protein   
+11               0.250                 0               Vegetable Fats   
+12               0.770                 0                 Mixed Dishes   
+13               0.240                 0         Sweeteners and Candy   
+
+   Coastal/Interior                                   Calorie Citation   
+0             Local  https://fdc.nal.usda.gov/food-details/171950/n...  \
+1             Local  https://fdc.nal.usda.gov/food-details/174468/n...   
+2             Local  https://www.adfg.alaska.gov/index.cfm?adfg=hun...   
+3             Local  https://fdc.nal.usda.gov/food-details/175138/n...   
+4           Coastal  https://fdc.nal.usda.gov/food-details/168025/n...   
+5          Imported  https://fdc.nal.usda.gov/food-details/1636387/...   
+6          Imported  https://fdc.nal.usda.gov/food-details/169928/n...   
+7          Imported  https://fdc.nal.usda.gov/food-details/169928/n...   
+8          Imported  https://fdc.nal.usda.gov/food-details/168121/n...   
+9          Imported  https://fdc.nal.usda.gov/food-details/172684/n...   
+10         Imported  https://fdc.nal.usda.gov/food-details/331960/n...   
+11         Imported  https://fdc.nal.usda.gov/food-details/172339/n...   
+12         Imported  https://fdc.nal.usda.gov/food-details/1922049/...   
+13         Imported  https://fdc.nal.usda.gov/food-details/1628000/...   
+
+               Hg Citation                      Substituted Hg   
+0           2001-2022 ADEC                                 NaN  \
+1   Rothschild et al. 2005                                 NaN   
+2     Golzadeh et al. 2020                                 NaN   
+3           2001-2012 ADEC                                 NaN   
+4         Dehn et al. 2005                                 NaN   
+5       Dabeka et al. 2003                          Soft Drink   
+6       Dabeka et al. 2003                                 NaN   
+7       Dabeka et al. 2003                                 NaN   
+8       Dabeka et al. 2003            Processed cheddar cheese   
+9       Dabeka et al. 2003                           Rye Bread   
+10      Dabeka et al. 2003                                 NaN   
+11      Dabeka et al. 2003                                 NaN   
+12      Dabeka et al. 2003  Frozen entrees (microwave or oven)   
+13      Dabeka et al. 2003                                 NaN   
+
+   Substituted Calories                               Notes   
+0                   NaN                       Hg for fillet  \
+1             Wild duck                      Hg from muscle   
+2                   NaN                       Hg for muscle   
+3                   NaN          Hg  Maximum value (fillet)   
+4                   NaN  Hg from muscle. Barrow caught seal   
+5                   NaN                                 NaN   
+6                   NaN                Hg Less than value.    
+7                   NaN                Hg Less than value.    
+8                   NaN                Hg Less than value.    
+9                   NaN                                 NaN   
+10                  NaN                                 NaN   
+11                  NaN                Hg Less than value.    
+12                  NaN                                 NaN   
+13                  NaN                Hg Less than value.    
+
+    Scaled Amount (g)  Scaled Calories  Traditional Calories  Mercury Content  
+0              158.68          142.812               142.812           52.801  
+1               25.08           52.919                52.919            0.966  
+2              130.99          170.287               170.287            0.393  
+3              200.72          254.914               254.914           15.544  
+4               39.69           56.360                56.360            4.802  
+5              129.28          323.200                 0.000            0.005  
+6              181.28           70.699                 0.000            0.008  
+7              181.28           70.699                 0.000            0.008  
+8               42.98          161.605                 0.000            0.022  
+9               93.59          242.398                 0.000            0.035  
+10              85.18          141.399                 0.000            0.036  
+11              19.45          141.402                 0.000            0.005  
+12              47.64          100.997                 0.000            0.037  
+13              24.24           60.600                 0.000            0.006  "
+75,Severe,74.78,"              Item  Amount (g)  Calories  THg (ng/g)  Moderate Hg Increase   
+0         Sheefish         100       115     138.000               166.980  \
+1       Black Bear         100       163       8.000                 8.000   
+2          Caribou         100       127       3.000                 3.000   
+3   Chinook Salmon         100       179      64.000                77.440   
+4           Walrus         100       199      21.000                25.410   
+5             Tang         100       250       0.041                 0.041   
+6      Apple Sauce         100        50       0.099                 0.099   
+7     Orange Juice         100        46       0.097                 0.097   
+8             Eggs         100       147       0.390                 0.390   
+9      White Bread         100       267       0.460                 0.460   
+10         Chicken         100       158       1.700                 1.700   
+11       Margarine         100       727       0.250                 0.250   
+12           Pizza         100       280       0.220                 0.220   
+13     Maple Syrup         100       260       0.240                 0.240   
+
+    Severe Hg Increase  Traditional Food                  Food Source   
+0              379.500                 1                   Non-Salmon  \
+1                8.000                 1                         Game   
+2                3.000                 1            Moose and Caribou   
+3              176.000                 1                       Salmon   
+4               57.750                 1                Marine Mammal   
+5                0.041                 0               Sugared Drinks   
+6                0.099                 0  Store Fruit and Fruit Juice   
+7                0.097                 0  Store Fruit and Fruit Juice   
+8                0.390                 0               Dairy and Eggs   
+9                0.460                 0                       Grains   
+10               1.700                 0             Imported Protein   
+11               0.250                 0               Vegetable Fats   
+12               0.220                 0                 Mixed Dishes   
+13               0.240                 0         Sweeteners and Candy   
+
+   Coastal/Interior                                   Calorie Citation   
+0             Local  https://fdc.nal.usda.gov/food-details/167648/n...  \
+1             Local  https://www.adfg.alaska.gov/index.cfm?adfg=hun...   
+2             Local  https://www.adfg.alaska.gov/index.cfm?adfg=hun...   
+3             Local  https://fdc.nal.usda.gov/food-details/173688/n...   
+4           Coastal  https://fdc.nal.usda.gov/food-details/168029/n...   
+5          Imported  https://fdc.nal.usda.gov/food-details/1636387/...   
+6          Imported  https://fdc.nal.usda.gov/food-details/2104794/...   
+7          Imported  https://fdc.nal.usda.gov/food-details/171913/n...   
+8          Imported  https://fdc.nal.usda.gov/food-details/748967/n...   
+9          Imported  https://fdc.nal.usda.gov/food-details/325871/n...   
+10         Imported  https://fdc.nal.usda.gov/food-details/331960/n...   
+11         Imported  https://fdc.nal.usda.gov/food-details/172339/n...   
+12         Imported  https://fdc.nal.usda.gov/food-details/172041/n...   
+13         Imported  https://fdc.nal.usda.gov/food-details/169661/n...   
+
+               Hg Citation                    Substituted Hg   
+0           2001-2022 ADEC                               NaN  \
+1     Golzadeh et al. 2020  Bear muscle (unspecifed species)   
+2     Schuster et al. 2011                               NaN   
+3           2001-2012 ADEC                               NaN   
+4   Quakenbush et al. 2016                               NaN   
+5       Dabeka et al. 2003                        Soft Drink   
+6       Dabeka et al. 2003                               NaN   
+7       Dabeka et al. 2003              Citrus Juice, canned   
+8       Dabeka et al. 2003                               NaN   
+9       Dabeka et al. 2003                               NaN   
+10      Dabeka et al. 2003                               NaN   
+11      Dabeka et al. 2003                               NaN   
+12      Dabeka et al. 2003                               NaN   
+13      Dabeka et al. 2003                               NaN   
+
+    Substituted Calories                                              Notes   
+0                    NaN                                      Hg for fillet  \
+1                    NaN                                     Hg from muscle   
+2                    NaN                               Hg Less than value.    
+3                    NaN                                      Hg for fillet   
+4                    NaN                                     Hg from muscle   
+5                    NaN                                                NaN   
+6                    NaN                               Hg Less than value.    
+7                    NaN                               Hg Less than value.    
+8                    NaN  Used Energy (Atwater specific factors) for cal...   
+9                    NaN                               Hg Less than value.    
+10                   NaN                                                NaN   
+11                   NaN                               Hg Less than value.    
+12                   NaN                                                NaN   
+13                   NaN                               Hg Less than value.    
+
+    Scaled Amount (g)  Scaled Calories  Traditional Calories  Mercury Content  
+0              124.18          142.807               142.807           47.126  
+1               32.47           52.926                52.926            0.260  
+2              134.09          170.294               170.294            0.402  
+3              142.41          254.914               254.914           25.064  
+4               28.32           56.357                56.357            1.635  
+5              129.28          323.200                 0.000            0.005  
+6              141.40           70.700                 0.000            0.014  
+7              153.70           70.702                 0.000            0.015  
+8              109.93          161.597                 0.000            0.043  
+9               90.79          242.409                 0.000            0.042  
+10              89.49          141.394                 0.000            0.152  
+11              19.45          141.402                 0.000            0.005  
+12              36.07          100.996                 0.000            0.008  
+13              23.31           60.606                 0.000            0.006  "
+75,Severe,74.75,"                Item  Amount (g)  Calories  THg (ng/g)  Moderate Hg Increase   
+0        Least Cisco         100        98      67.000                81.070  \
+1   Northern Pintail         100       211      38.500                38.500   
+2            Caribou         100       127       3.000                 3.000   
+3        Pink Salmon         100       127      64.000                77.440   
+4       Ringed seal          100       142     100.000               121.000   
+5               Tang         100       250       0.041                 0.041   
+6            Oranges         100        97       0.120                 0.120   
+7         Apple, raw         100        57       0.110                 0.110   
+8               Eggs         100       147       0.390                 0.390   
+9            Cookies         100       451       0.410                 0.410   
+10           Chicken         100       158       1.700                 1.700   
+11     Vegetable Oil         100       857       0.250                 0.250   
+12           Burrito         100       212       0.770                 0.770   
+13       Maple Syrup         100       260       0.240                 0.240   
+
+    Severe Hg Increase  Traditional Food                  Food Source   
+0              184.250                 1                   Non-Salmon  \
+1               38.500                 1                         Game   
+2                3.000                 1            Moose and Caribou   
+3              176.000                 1                       Salmon   
+4              275.000                 1                Marine Mammal   
+5                0.041                 0               Sugared Drinks   
+6                0.120                 0  Store Fruit and Fruit Juice   
+7                0.110                 0  Store Fruit and Fruit Juice   
+8                0.390                 0               Dairy and Eggs   
+9                0.410                 0                       Grains   
+10               1.700                 0             Imported Protein   
+11               0.250                 0               Vegetable Fats   
+12               0.770                 0                 Mixed Dishes   
+13               0.240                 0         Sweeteners and Candy   
+
+   Coastal/Interior                                   Calorie Citation   
+0             Local  https://fdc.nal.usda.gov/food-details/171953/n...  \
+1             Local  https://fdc.nal.usda.gov/food-details/174468/n...   
+2             Local  https://www.adfg.alaska.gov/index.cfm?adfg=hun...   
+3             Local  https://fdc.nal.usda.gov/food-details/175138/n...   
+4           Coastal  https://fdc.nal.usda.gov/food-details/168025/n...   
+5          Imported  https://fdc.nal.usda.gov/food-details/1636387/...   
+6          Imported  https://fdc.nal.usda.gov/food-details/169103/n...   
+7          Imported  https://fdc.nal.usda.gov/food-details/168202/n...   
+8          Imported  https://fdc.nal.usda.gov/food-details/748967/n...   
+9          Imported  https://fdc.nal.usda.gov/food-details/172715/n...   
+10         Imported  https://fdc.nal.usda.gov/food-details/331960/n...   
+11         Imported  https://fdc.nal.usda.gov/food-details/1625352/...   
+12         Imported  https://fdc.nal.usda.gov/food-details/1922049/...   
+13         Imported  https://fdc.nal.usda.gov/food-details/169661/n...   
+
+               Hg Citation                      Substituted Hg   
+0           2001-2022 ADEC                                 NaN  \
+1   Rothschild et al. 2005                                 NaN   
+2     Schuster et al. 2011                                 NaN   
+3           2001-2012 ADEC                                 NaN   
+4         Dehn et al. 2005                                 NaN   
+5       Dabeka et al. 2003                          Soft Drink   
+6       Dabeka et al. 2003                   Citrus fruit, raw   
+7       Dabeka et al. 2003                                 NaN   
+8       Dabeka et al. 2003                                 NaN   
+9       Dabeka et al. 2003                                 NaN   
+10      Dabeka et al. 2003                                 NaN   
+11      Dabeka et al. 2003         Cooking fats and Salad oils   
+12      Dabeka et al. 2003  Frozen entrees (microwave or oven)   
+13      Dabeka et al. 2003                                 NaN   
+
+          Substituted Calories   
+0                Generic cisco  \
+1                    Wild duck   
+2                          NaN   
+3                          NaN   
+4                          NaN   
+5                          NaN   
+6                          NaN   
+7                          NaN   
+8                          NaN   
+9                          NaN   
+10                         NaN   
+11  Crisco, Pure Vegetable Oil   
+12                         NaN   
+13                         NaN   
+
+                                                Notes  Scaled Amount (g)   
+0                                       Hg for fillet             145.72  \
+1                                      Hg from muscle              25.08   
+2                                Hg Less than value.              134.09   
+3                          Hg  Maximum value (fillet)             200.72   
+4                  Hg from muscle. Barrow caught seal              39.69   
+5                                                 NaN             129.28   
+6                                Hg Less than value.               72.89   
+7                                Hg Less than value.              124.04   
+8   Used Energy (Atwater specific factors) for cal...             109.93   
+9                                                 NaN              53.75   
+10                                                NaN              89.49   
+11                               Hg Less than value.               16.50   
+12                                                NaN              47.64   
+13                               Hg Less than value.               23.31   
+
+    Scaled Calories  Traditional Calories  Mercury Content  
+0           142.806               142.806           26.849  
+1            52.919                52.919            0.966  
+2           170.294               170.294            0.402  
+3           254.914               254.914           35.327  
+4            56.360                56.360           10.915  
+5           323.200                 0.000            0.005  
+6            70.703                 0.000            0.009  
+7            70.703                 0.000            0.014  
+8           161.597                 0.000            0.043  
+9           242.412                 0.000            0.022  
+10          141.394                 0.000            0.152  
+11          141.405                 0.000            0.004  
+12          100.997                 0.000            0.037  
+13           60.606                 0.000            0.006  "
+75,Severe,74.7,"                         Item  Amount (g)  Calories  THg (ng/g)   
+0                    Sheefish         100       115     138.000  \
+1               Snowshoe Hare         100       114       6.000   
+2                     Caribou         100       127       3.000   
+3              Chinook Salmon         100       179      64.000   
+4                      Walrus         100       199      21.000   
+5                        Tang         100       250       0.041   
+6                  Apple, raw         100        57       0.110   
+7                  Apple, raw         100        57       0.110   
+8                        Milk         100        60       0.130   
+9                 White Bread         100       267       0.460   
+10  Cold Cuts and Lunch Meats         100       214       0.510   
+11                  Margarine         100       727       0.250   
+12                       Soup         100        41       0.150   
+13              Chocolate bar         100       531       0.540   
+
+    Moderate Hg Increase  Severe Hg Increase  Traditional Food   
+0                166.980             379.500                 1  \
+1                  6.000               6.000                 1   
+2                  3.000               3.000                 1   
+3                 77.440             176.000                 1   
+4                 25.410              57.750                 1   
+5                  0.041               0.041                 0   
+6                  0.110               0.110                 0   
+7                  0.110               0.110                 0   
+8                  0.130               0.130                 0   
+9                  0.460               0.460                 0   
+10                 0.510               0.510                 0   
+11                 0.250               0.250                 0   
+12                 0.150               0.150                 0   
+13                 0.540               0.540                 0   
+
+                    Food Source Coastal/Interior   
+0                    Non-Salmon            Local  \
+1                          Game            Local   
+2             Moose and Caribou            Local   
+3                        Salmon            Local   
+4                 Marine Mammal          Coastal   
+5                Sugared Drinks         Imported   
+6   Store Fruit and Fruit Juice         Imported   
+7   Store Fruit and Fruit Juice         Imported   
+8                Dairy and Eggs         Imported   
+9                        Grains         Imported   
+10             Imported Protein         Imported   
+11               Vegetable Fats         Imported   
+12                 Mixed Dishes         Imported   
+13         Sweeteners and Candy         Imported   
+
+                                     Calorie Citation             Hg Citation   
+0   https://fdc.nal.usda.gov/food-details/167648/n...          2001-2022 ADEC  \
+1   https://www.adfg.alaska.gov/index.cfm?adfg=hun...    Golzadeh et al. 2020   
+2   https://www.adfg.alaska.gov/index.cfm?adfg=hun...    Schuster et al. 2011   
+3   https://fdc.nal.usda.gov/food-details/173688/n...          2001-2012 ADEC   
+4   https://fdc.nal.usda.gov/food-details/168029/n...  Quakenbush et al. 2016   
+5   https://fdc.nal.usda.gov/food-details/1636387/...      Dabeka et al. 2003   
+6   https://fdc.nal.usda.gov/food-details/168202/n...      Dabeka et al. 2003   
+7   https://fdc.nal.usda.gov/food-details/168202/n...      Dabeka et al. 2003   
+8   https://fdc.nal.usda.gov/food-details/746782/n...      Dabeka et al. 2003   
+9   https://fdc.nal.usda.gov/food-details/325871/n...      Dabeka et al. 2003   
+10  https://fdc.nal.usda.gov/food-details/170315/n...      Dabeka et al. 2003   
+11  https://fdc.nal.usda.gov/food-details/172339/n...      Dabeka et al. 2003   
+12  https://fdc.nal.usda.gov/food-details/174545/n...      Dabeka et al. 2003   
+13  https://fdc.nal.usda.gov/food-details/167984/n...      Dabeka et al. 2003   
+
+        Substituted Hg  Substituted Calories   
+0                  NaN                   NaN  \
+1     Unspecified hare                   NaN   
+2                  NaN                   NaN   
+3                  NaN                   NaN   
+4                  NaN                   NaN   
+5           Soft Drink                   NaN   
+6                  NaN                   NaN   
+7                  NaN                   NaN   
+8          Whole Milk                    NaN   
+9                  NaN                   NaN   
+10                 NaN                   NaN   
+11                 NaN                   NaN   
+12  Soup, meat, canned                   NaN   
+13                 NaN                   NaN   
+
+                                                Notes  Scaled Amount (g)   
+0                                       Hg for fillet             124.18  \
+1                                 Used Hg from muscle              46.42   
+2                                Hg Less than value.              134.09   
+3                                       Hg for fillet             142.41   
+4                                      Hg from muscle              28.32   
+5                                                 NaN             129.28   
+6                                Hg Less than value.              124.04   
+7                                Hg Less than value.              124.04   
+8   Used Energy (Atwater specific factors) for cal...             269.33   
+9                                Hg Less than value.               90.79   
+10                                                NaN              66.07   
+11                               Hg Less than value.               19.45   
+12                                                NaN             246.34   
+13                               Hg Less than value.               11.41   
+
+    Scaled Calories  Traditional Calories  Mercury Content  
+0           142.807               142.807           47.126  
+1            52.919                52.919            0.279  
+2           170.294               170.294            0.402  
+3           254.914               254.914           25.064  
+4            56.357                56.357            1.635  
+5           323.200                 0.000            0.005  
+6            70.703                 0.000            0.014  
+7            70.703                 0.000            0.014  
+8           161.598                 0.000            0.035  
+9           242.409                 0.000            0.042  
+10          141.390                 0.000            0.034  
+11          141.402                 0.000            0.005  
+12          100.999                 0.000            0.037  
+13           60.587                 0.000            0.006  "
+75,Severe,74.68,"              Item  Amount (g)  Calories  THg (ng/g)  Moderate Hg Increase   
+0         Sheefish         100       115     138.000               166.980  \
+1    Snowshoe Hare         100       114       6.000                 6.000   
+2          Caribou         100       127       3.000                 3.000   
+3   Chinook Salmon         100       179      64.000                77.440   
+4           Walrus         100       199      21.000                25.410   
+5       Soft drink         100        40       0.041                 0.041   
+6          Peaches         100        39       0.046                 0.046   
+7          Oranges         100        97       0.120                 0.120   
+8             Eggs         100       147       0.390                 0.390   
+9        Spagehtti         100       157       0.110                 0.110   
+10         Sausage         100       320       0.820                 0.820   
+11      Mayonnaise         100       361       0.230                 0.230   
+12      Hot Pocket         100       252       0.220                 0.220   
+13            Jams         100       250       0.240                 0.240   
+
+    Severe Hg Increase  Traditional Food                  Food Source   
+0              379.500                 1                   Non-Salmon  \
+1                6.000                 1                         Game   
+2                3.000                 1            Moose and Caribou   
+3              176.000                 1                       Salmon   
+4               57.750                 1                Marine Mammal   
+5                0.041                 0               Sugared Drinks   
+6                0.046                 0  Store Fruit and Fruit Juice   
+7                0.120                 0  Store Fruit and Fruit Juice   
+8                0.390                 0               Dairy and Eggs   
+9                0.110                 0                       Grains   
+10               0.820                 0             Imported Protein   
+11               0.230                 0               Vegetable Fats   
+12               0.220                 0                 Mixed Dishes   
+13               0.240                 0         Sweeteners and Candy   
+
+   Coastal/Interior                                   Calorie Citation   
+0             Local  https://fdc.nal.usda.gov/food-details/167648/n...  \
+1             Local  https://www.adfg.alaska.gov/index.cfm?adfg=hun...   
+2             Local  https://www.adfg.alaska.gov/index.cfm?adfg=hun...   
+3             Local  https://fdc.nal.usda.gov/food-details/173688/n...   
+4           Coastal  https://fdc.nal.usda.gov/food-details/168029/n...   
+5          Imported  https://fdc.nal.usda.gov/food-details/173206/n...   
+6          Imported  https://fdc.nal.usda.gov/food-details/169928/n...   
+7          Imported  https://fdc.nal.usda.gov/food-details/169103/n...   
+8          Imported  https://fdc.nal.usda.gov/food-details/748967/n...   
+9          Imported  https://fdc.nal.usda.gov/food-details/172014/n...   
+10         Imported  https://fdc.nal.usda.gov/food-details/174585/n...   
+11         Imported  https://fdc.nal.usda.gov/food-details/171443/n...   
+12         Imported  https://fdc.nal.usda.gov/food-details/172107/n...   
+13         Imported  https://fdc.nal.usda.gov/food-details/1628000/...   
+
+               Hg Citation     Substituted Hg  Substituted Calories   
+0           2001-2022 ADEC                NaN                   NaN  \
+1     Golzadeh et al. 2020   Unspecified hare                   NaN   
+2     Schuster et al. 2011                NaN                   NaN   
+3           2001-2012 ADEC                NaN                   NaN   
+4   Quakenbush et al. 2016                NaN                   NaN   
+5       Dabeka et al. 2003                NaN                   NaN   
+6       Dabeka et al. 2003                NaN                   NaN   
+7       Dabeka et al. 2003  Citrus fruit, raw                   NaN   
+8       Dabeka et al. 2003                NaN                   NaN   
+9       Dabeka et al. 2003       Pasta, plain                   NaN   
+10      Dabeka et al. 2003            Weiners                   NaN   
+11      Dabeka et al. 2003                NaN                   NaN   
+12      Dabeka et al. 2003              Pizza                   NaN   
+13      Dabeka et al. 2003                NaN                   NaN   
+
+                                                Notes  Scaled Amount (g)   
+0                                       Hg for fillet             124.18  \
+1                                 Used Hg from muscle              46.42   
+2                                Hg Less than value.              134.09   
+3                                       Hg for fillet             142.41   
+4                                      Hg from muscle              28.32   
+5                                Hg Less than value.              808.00   
+6                                Hg Less than value.              181.28   
+7                                Hg Less than value.               72.89   
+8   Used Energy (Atwater specific factors) for cal...             109.93   
+9                                Hg Less than value.              154.39   
+10                                                NaN              44.19   
+11                     Hg Less than value from Ottawa              39.17   
+12                                                NaN              40.08   
+13                               Hg Less than value.               24.24   
+
+    Scaled Calories  Traditional Calories  Mercury Content  
+0           142.807               142.807           47.126  
+1            52.919                52.919            0.279  
+2           170.294               170.294            0.402  
+3           254.914               254.914           25.064  
+4            56.357                56.357            1.635  
+5           323.200                 0.000            0.033  
+6            70.699                 0.000            0.008  
+7            70.703                 0.000            0.009  
+8           161.597                 0.000            0.043  
+9           242.392                 0.000            0.017  
+10          141.408                 0.000            0.036  
+11          141.404                 0.000            0.009  
+12          101.002                 0.000            0.009  
+13           60.600                 0.000            0.006  "
+75,Severe,74.68,"              Item  Amount (g)  Calories  THg (ng/g)  Moderate Hg Increase   
+0         Sheefish         100       115     138.000               166.980  \
+1    Snowshoe Hare         100       114       6.000                 6.000   
+2          Caribou         100       127       3.000                 3.000   
+3   Chinook Salmon         100       179      64.000                77.440   
+4           Walrus         100       199      21.000                25.410   
+5       Soft drink         100        40       0.041                 0.041   
+6          Bananas         100        89       0.110                 0.110   
+7     Orange Juice         100        46       0.097                 0.097   
+8             Eggs         100       147       0.390                 0.390   
+9       White Rice         100       366       0.570                 0.570   
+10         Hot Dog         100       310       0.360                 0.360   
+11   Vegetable Oil         100       857       0.250                 0.250   
+12       Hamburger         100       264       0.160                 0.160   
+13            Jams         100       250       0.240                 0.240   
+
+    Severe Hg Increase  Traditional Food                  Food Source   
+0              379.500                 1                   Non-Salmon  \
+1                6.000                 1                         Game   
+2                3.000                 1            Moose and Caribou   
+3              176.000                 1                       Salmon   
+4               57.750                 1                Marine Mammal   
+5                0.041                 0               Sugared Drinks   
+6                0.110                 0  Store Fruit and Fruit Juice   
+7                0.097                 0  Store Fruit and Fruit Juice   
+8                0.390                 0               Dairy and Eggs   
+9                0.570                 0                       Grains   
+10               0.360                 0             Imported Protein   
+11               0.250                 0               Vegetable Fats   
+12               0.160                 0                 Mixed Dishes   
+13               0.240                 0         Sweeteners and Candy   
+
+   Coastal/Interior                                   Calorie Citation   
+0             Local  https://fdc.nal.usda.gov/food-details/167648/n...  \
+1             Local  https://www.adfg.alaska.gov/index.cfm?adfg=hun...   
+2             Local  https://www.adfg.alaska.gov/index.cfm?adfg=hun...   
+3             Local  https://fdc.nal.usda.gov/food-details/173688/n...   
+4           Coastal  https://fdc.nal.usda.gov/food-details/168029/n...   
+5          Imported  https://fdc.nal.usda.gov/food-details/173206/n...   
+6          Imported  https://fdc.nal.usda.gov/food-details/173944/n...   
+7          Imported  https://fdc.nal.usda.gov/food-details/171913/n...   
+8          Imported  https://fdc.nal.usda.gov/food-details/748967/n...   
+9          Imported  https://fdc.nal.usda.gov/food-details/169714/n...   
+10         Imported  https://fdc.nal.usda.gov/food-details/323121/n...   
+11         Imported  https://fdc.nal.usda.gov/food-details/1625352/...   
+12         Imported  https://fdc.nal.usda.gov/food-details/170717/n...   
+13         Imported  https://fdc.nal.usda.gov/food-details/1628000/...   
+
+               Hg Citation               Substituted Hg   
+0           2001-2022 ADEC                          NaN  \
+1     Golzadeh et al. 2020             Unspecified hare   
+2     Schuster et al. 2011                          NaN   
+3           2001-2012 ADEC                          NaN   
+4   Quakenbush et al. 2016                          NaN   
+5       Dabeka et al. 2003                          NaN   
+6       Dabeka et al. 2003                          NaN   
+7       Dabeka et al. 2003         Citrus Juice, canned   
+8       Dabeka et al. 2003                          NaN   
+9       Dabeka et al. 2003                          NaN   
+10      Dabeka et al. 2003                          NaN   
+11      Dabeka et al. 2003  Cooking fats and Salad oils   
+12      Dabeka et al. 2003                          NaN   
+13      Dabeka et al. 2003                          NaN   
+
+          Substituted Calories   
+0                          NaN  \
+1                          NaN   
+2                          NaN   
+3                          NaN   
+4                          NaN   
+5                          NaN   
+6                          NaN   
+7                          NaN   
+8                          NaN   
+9                          NaN   
+10                         NaN   
+11  Crisco, Pure Vegetable Oil   
+12                         NaN   
+13                         NaN   
+
+                                                Notes  Scaled Amount (g)   
+0                                       Hg for fillet             124.18  \
+1                                 Used Hg from muscle              46.42   
+2                                Hg Less than value.              134.09   
+3                                       Hg for fillet             142.41   
+4                                      Hg from muscle              28.32   
+5                                Hg Less than value.              808.00   
+6                                Hg Less than value.               79.44   
+7                                Hg Less than value.              153.70   
+8   Used Energy (Atwater specific factors) for cal...             109.93   
+9                                                 NaN              66.23   
+10                                                NaN              45.61   
+11                               Hg Less than value.               16.50   
+12                                                NaN              38.26   
+13                               Hg Less than value.               24.24   
+
+    Scaled Calories  Traditional Calories  Mercury Content  
+0           142.807               142.807           47.126  
+1            52.919                52.919            0.279  
+2           170.294               170.294            0.402  
+3           254.914               254.914           25.064  
+4            56.357                56.357            1.635  
+5           323.200                 0.000            0.033  
+6            70.702                 0.000            0.009  
+7            70.702                 0.000            0.015  
+8           161.597                 0.000            0.043  
+9           242.402                 0.000            0.038  
+10          141.391                 0.000            0.016  
+11          141.405                 0.000            0.004  
+12          101.006                 0.000            0.006  
+13           60.600                 0.000            0.006  "
