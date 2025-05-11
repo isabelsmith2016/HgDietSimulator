@@ -374,7 +374,7 @@ def generate_multiple_diets(data, calorie_cap, protein_type, conditions, thresho
         # data - variable holding model data
         # calorie_cap - max number of calories eaten a day
         # protein_type- [location] with/without salmon (protein substituted)
-        # conditions - degree of warming [normal, moderate,severe]
+        # conditions - degree of warming [normal, moderate,severe] needs to be in brackets
         # threshold - how close to calorie cap created diet is
         # num_diets- number of diets generated  '''
 
@@ -442,7 +442,7 @@ def permafrost_thaw_distribution(protein_type, conditions, cal_cap, num_runs=100
     ax.tick_params(axis='y', labelsize=12)
 
     ax.set_xlim(0, 500)
-    ax.set_title(f'Distribution of Total THg Across {num_runs} Diets')
+    ax.set_title(f'Distribution of Total THg for {num_runs} Diets (Permafrost Thaw)')
     ax.legend(title='Condition')
 
     plt.tight_layout()
@@ -487,7 +487,7 @@ def protein_distribution(protein_types, cal_cap, conditions, num_runs=1000, tole
     ax1.set_ylabel('Density',fontsize=14)
     ax1.tick_params(axis='x', labelsize=12)
     ax1.tick_params(axis='y', labelsize=12)
-    ax1.set_title(f'Distribution of Total THg for {num_runs} Diets by Protein Type')
+    ax1.set_title(f'Distribution of Total THg for {num_runs} Diets (Protein Substitution)')
     ax1.legend(title='Protein Type')
 
     plt.tight_layout()
@@ -547,11 +547,10 @@ def proteinscenario(store_file_name='protein_type_simulation_results.pkl', num_d
         raise ValueError('Please enter a valid option ("Coastal","Interior")')
 
     thg_data, diet_data = protein_distribution(protein_types=protein_type, conditions=protein_condition,
-                                               cal_cap=calorie_cap, num_runs=num_diets, tolerance=0.01)
+                                               cal_cap=calorie_cap, num_runs=num_diets, tolerance=0.01);
     # Save results for reuse
     pd.to_pickle((thg_data, diet_data, protein_type, protein_condition), store_file_name)  # Save as a pickle file
-    print(f"Simulation results saved to {store_file_name}.")
-
+    print(f"Simulation results saved.")
     return thg_data, diet_data
 
 def permafrostthaw(store_file_name='permafrost_thaw_simulation_results.pkl', num_diets=10000, region='Coastal'):
@@ -573,11 +572,12 @@ def permafrostthaw(store_file_name='permafrost_thaw_simulation_results.pkl', num
 
     thgcondition = ['Normal','Moderate', 'Severe']
 
-    thg_data,diet_data = permafrost_thaw_distribution(protein_type=thgprotein_type, conditions=thgcondition, cal_cap=calorie_cap, num_runs=num_diets, tolerance=0.01)
+    thg_data,diet_data = permafrost_thaw_distribution(protein_type=thgprotein_type, conditions=thgcondition, cal_cap=calorie_cap, num_runs=num_diets, tolerance=0.01);
 
     # Save results for reuse
     pd.to_pickle((thg_data, diet_data, thgprotein_type, thgcondition), store_file_name)  # Save as a pickle file
-    print(f"Simulation results saved to {store_file_name}.")
+    print(f"Simulation results saved.")
+    return thg_data, diet_data
 
 def both(store_file_name='both_simulation_results.pkl', num_diets=10000,region='Coastal'):
 
@@ -600,10 +600,10 @@ def both(store_file_name='both_simulation_results.pkl', num_diets=10000,region='
         raise ValueError('Please enter a valid option ("Coastal","Interior")')
 
     thg_data, diet_data = protein_distribution(protein_types=protein_type, conditions=protein_condition,
-                                               cal_cap=calorie_cap, num_runs=num_diets, tolerance=0.01)
+                                               cal_cap=calorie_cap, num_runs=num_diets, tolerance=0.01);
     # Save results for reuse
     pd.to_pickle((thg_data, diet_data, protein_type, protein_condition), store_file_name)  # Save as a pickle file
-    print(f"Simulation results saved to {store_file_name}.")
+    print(f"Simulation results saved.")
 
     return thg_data, diet_data
 
@@ -659,7 +659,7 @@ def proteinyearly_distribution(file_name='simulation_results.pkl', proteins=None
     '''Randomly selects 365 diets from the 10,000 generated daily diets
     to generate yearly Hg intake under protein substitution scenarios
        # file_name- name of file that is holding simulation data
-       # proteins- what proteins are being consumed
+       # proteins - what proteins are being consumed
        # num_samples- number of days randomly sampled
        # num_run- how many times you sample
        '''
@@ -697,7 +697,6 @@ def proteinyearly_distribution(file_name='simulation_results.pkl', proteins=None
             'mean': mean_thg,
             'std_dev': std_thg,
         }
-
     return results
 
 def exportpeakdata(simulation='Permafrost Thaw',loadfile="simulation_results.pkl", region='Coastal', exportname ="new_target_results.csv",targets=[10,15]):
@@ -803,8 +802,8 @@ def exportpeakdata(simulation='Permafrost Thaw',loadfile="simulation_results.pkl
         rows = []
 
         # Loop through the results and prepare the rows
-        for target, protein_results in results.items():
-            for protein, diets in protein_results.items():
+        for target, climatecondition_results in results.items():
+            for climatecondition, diets in climatecondition_results.items():
                 for diet in diets:
                     # Ensure 'Diet' is a list and handle it properly for CSV export
                     if isinstance(diet["Diet"], list):
@@ -815,7 +814,7 @@ def exportpeakdata(simulation='Permafrost Thaw',loadfile="simulation_results.pkl
                     # Append the row to the rows list
                     rows.append({
                         "Target THg": target,
-                        "Protein Type": protein,
+                        "Climate Condition": climatecondition,
                         "THg": diet["THg"],
                         "Diet": diet_str
                     })
@@ -826,11 +825,12 @@ def exportpeakdata(simulation='Permafrost Thaw',loadfile="simulation_results.pkl
     df = pd.DataFrame(rows)
 
     # Check the DataFrame to ensure it contains the correct data
-    print(f"DataFrame before exporting:\n{df}")
+    #print(f"DataFrame before exporting:\n{df}")
+    print(f"Length of exported DataFrame: {len(df)}, rows containing missing values: {df.isnull().any(axis=1).sum()}")
 
     # Export to CSV
     df.to_csv(exportname, index=False)
-    print(f"Results saved to {exportname}.")
+    print(f"Results saved.")
 
 def yearly_distributions_data():
     ''' Creates Bar plots and stddev error bars for all the different simulations '''
@@ -1049,7 +1049,7 @@ def main():
                    #region='Moderate Coastal',exportname="interior both diet survey results.csv", targets=[45, 54])
 
     #### Permafrost thaw only ####
-    # exportpeakdata(simulation='Permafrost Thaw',loadfile="interior permafrost thaw 10k second draft.pkl", region="Interior", exportname="interior permafrost thaw first draft.csv", targets=[210,215])
+    #exportpeakdata(simulation='Permafrost Thaw',loadfile='interior permafrost thaw 10k second draft.pkl', region="Interior", exportname="interior permafrost thaw first draft.csv", targets=[43])
     # exportpeakdata(simulation='Permafrost Thaw',loadfile="coastal permafrost thaw 10k second draft.pkl", region='Coastal', exportname="coastal permafrost thaw first draft.csv", targets=[24,29,65.3])
 
     '''3. Yearly distribution monte carlo (skip these if going to be using yearly_distribution_data()'''
@@ -1059,6 +1059,8 @@ def main():
     ''' 4. Generates yearly bar graph and abs yearly differences '''
     #yearly_distributions_data()
     #absyearlydiff()
+
+
 
 main()
 
